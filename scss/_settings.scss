@@ -82,7 +82,7 @@ $blue:         hsl(223, 99%, 53%);
   $blue-dark:  adjust-color($blue, $lightness: -25%, $saturation: -20%);
   $blue-light:  adjust-color($blue, $hue: -10, $lightness: 20%, $saturation: -20%);
 $stratum-gray: hsl(202, 30%, 21%);
-  $stratum-gray-dark:  adjust-color($stratum-gray, $lightness: -25%, $saturation: -20%);
+  $stratum-gray-dark:  adjust-color($stratum-gray, $lightness: -10%, $saturation: -10%);
   $stratum-gray-light:  adjust-color($stratum-gray, $lightness: 25%, $saturation: -20%);
 $red:          hsl(1, 70%, 53%);
   $red-dark:  adjust-color($red, $lightness: -25%, $saturation: -25%);

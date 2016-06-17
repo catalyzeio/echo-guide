@@ -1,5 +1,5 @@
 var Promise = require('es6-promise').Promise;
-// The above was necessary to fix compile-time errors: http://stackoverflow.com/a/35229818 
+// The above was necessary to fix compile-time errors: http://stackoverflow.com/a/35229818
 var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
 

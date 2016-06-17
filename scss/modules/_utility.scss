@@ -30,6 +30,10 @@
     background: linear-gradient(to bottom, $stratum-gray 0%, adjust-color($stratum-gray, $lightness: 15%) 100%);
     color: white;
   }
+  &--gray-dark {
+    background: $stratum-gray-dark; //adjust-color($stratum-gray, $lightness: 15%);
+    color: white;
+  }
   &--red {
     background: $red;
     color: white;
@@ -37,5 +41,24 @@
   &--red-dark {
     background: $red-dark;
     color: white;
+  }
+  &--tint {
+    background: black(0.5);
+  }
+}
+.button {
+  transition: all 100ms ease-out;
+  // &:hover,
+  // &:focus {
+	//   // border-color: $button-bg-hover;
+  //   transform: translate3d(3px, 0, 0);
+  // }
+  &-hollow {
+    @include button-hollow($white);
+  }
+}
+.button-group {
+	.button:not(.button-hollow) {
+    border: 0;
   }
 }

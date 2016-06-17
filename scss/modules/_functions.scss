@@ -14,5 +14,24 @@
 }
 @mixin container-pad() {
   padding: 2em; //legacy
-  padding: 4vw;
+  padding: 5vw 4vw;
+}
+@mixin background-fill {
+  background:{
+    repeat: no-repeat;
+    position: center center;
+    size: cover;
+  }
+}
+@mixin button-hollow($color){
+  $button-border-width: 2px;
+  background-color: transparent;
+  border: $button-border-width solid $color;
+  color: $color;
+  &:hover,
+  &:focus {
+    border: $button-border-width solid adjust-color($color, $lightness: 15%);;
+    background-color: transparent;
+    color: adjust-color($color, $lightness: 15%);
+  }
 }
