@@ -15,9 +15,22 @@
 .section-article {
   @include container-pad;
   &--header {
-    text-align: center;
+    // text-align: center;
   }
   &--subheader {
-    text-align: center;
+    // text-align: center;
+  }
+  &--icon {
+    margin-bottom: $pad / 2;
+  }
+  &--block {
+    margin-bottom: $pad / 2;
+  }
+  &--block-header {
+    font: {
+      size: 1rem;
+      weight: $font-weight-bold;
+    }
+    @extend .spaced-out;
   }
 }
