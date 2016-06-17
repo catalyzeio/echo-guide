@@ -1,0 +1,23 @@
+.container-masthead {
+  color: white;
+  background: {
+    color: $gray-4;
+    image: url('https://catalyze.io/assets/img/distortions/innovation-masthead.jpg');
+    size: cover;
+    repeat: no-repeat;
+  };
+  @include container-pad;
+}
+.callout-dark {
+  background-color: rgba($black, 0.4);
+  color: $white;
+}
+.section-article {
+  @include container-pad;
+  &--header {
+    text-align: center;
+  }
+  &--subheader {
+    text-align: center;
+  }
+}

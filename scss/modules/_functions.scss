@@ -1,0 +1,18 @@
+@function black($opacity) {
+  @return rgba(0,0,0,$opacity);
+}
+
+@function white($opacity) {
+  @return rgba(255,255,255,$opacity);
+}
+
+@mixin shadow($offset, $blur, $opacity) {
+  box-shadow: $offset $offset $blur black($opacity);
+}
+@mixin opacity($alpha){
+	opacity: $alpha;
+}
+@mixin container-pad() {
+  padding: 2em; //legacy
+  padding: 4vw;
+}

@@ -1,0 +1,41 @@
+.spaced-out {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+.circle{
+  border-radius: 50%;
+}
+.grayscale {
+            filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    // opacity: $opacity-faded;
+    &:hover {
+                transition: .3s linear;
+        -webkit-transition: .3s linear;
+                filter: grayscale(0%);
+        -webkit-filter: grayscale(0);
+        //opacity: 1 !important;
+    }
+}
+.faded {
+    @include opacity(0.6);
+}
+.container-color {
+  &--blue {
+    background: $blue;
+    color: white;
+  }
+  &--gray {
+    background: $stratum-gray;
+    background: linear-gradient(to bottom, $stratum-gray 0%, adjust-color($stratum-gray, $lightness: 15%) 100%);
+    color: white;
+  }
+  &--red {
+    background: $red;
+    color: white;
+  }
+  &--red-dark {
+    background: $red-dark;
+    color: white;
+  }
+}

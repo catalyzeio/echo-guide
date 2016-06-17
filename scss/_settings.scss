@@ -41,6 +41,19 @@
 //  36. Top Bar
 
 @import 'util/util';
+// Import Source Sans Pro from google
+@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic');
+
+// font basics
+// Font weights (These variables are mostly for reference)
+$font-weight-xlight:            200;
+$font-weight-light:             300;
+$font-weight-regular:           400;
+$font-weight-mid:               500;
+$font-weight-sem:               600;
+$font-weight-bold:              700;
+$font-weight-heavy:             800;
+$font-weight-black:             900;
 
 // 1. Global
 // ---------
@@ -48,26 +61,20 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-// $foundation-palette: (
-//   primary: #2199e8,
-//   secondary: #777,
-//   success: #3adb76,
-//   warning: #ffae00,
-//   alert: #ec5840,
-// );
 
-$gray-1:  hsl(248, 3%, 8%);
-$gray-2:  hsl(248, 3%, 16%);
-$gray-3:  hsl(248, 3%, 25%);
-$gray-4:  hsl(248, 3%, 33%);
-$gray-5:  hsl(248, 3%, 41%);
-$gray-6:  hsl(248, 3%, 50%);
-$gray-7:  hsl(248, 3%, 58%);
-$gray-8:  hsl(248, 3%, 66%);
-$gray-9:  hsl(248, 3%, 75%);
-$gray-10: hsl(248, 3%, 83%);
-$gray-11: hsl(248, 3%, 91%);
-$gray-12: hsl(248, 3%, 96);
+
+$gray-1:  hsl(202, 10%, 8%);
+$gray-2:  hsl(202, 10%, 16%);
+$gray-3:  hsl(202, 10%, 25%);
+$gray-4:  hsl(202, 10%, 33%);
+$gray-5:  hsl(202, 10%, 41%);
+$gray-6:  hsl(202, 10%, 50%);
+$gray-7:  hsl(202, 10%, 58%);
+$gray-8:  hsl(202, 10%, 66%);
+$gray-9:  hsl(202, 10%, 75%);
+$gray-10: hsl(202, 10%, 83%);
+$gray-11: hsl(202, 10%, 91%);
+$gray-12: hsl(202, 10%, 96);
 
 // brand colors
 
@@ -98,17 +105,19 @@ $dark-gray:   $gray-2;
 $white:      #fff;
 $black:      #000;
 $body-background: $white;
-$body-font-color: $black;
+$body-font-color: $stratum-gray-dark;
 $body-font-family: 'Source Sans Pro', Roboto, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
-$global-weight-normal: normal;
-$global-weight-bold: bold;
-$global-radius: 0;
+$global-weight-normal: 400;
+$global-weight-bold:   700;
+$global-radius: 4px;
 $global-text-direction: ltr;
 $global-flexbox: true;
 $print-transparent-backgrounds: true;
+
+$pad: 2rem;
 
 @include add-foundation-colors;
 
@@ -140,21 +149,21 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: $font-weight-light;
 $header-font-style: normal;
-$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+$font-family-monospace: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 20,
+    'h1': 28,
+    'h2': 22,
     'h3': 19,
     'h4': 18,
     'h5': 17,
     'h6': 16,
   ),
   medium: (
-    'h1': 48,
-    'h2': 40,
+    'h1': 52,
+    'h2': 42,
     'h3': 31,
     'h4': 25,
     'h5': 20,
@@ -162,12 +171,12 @@ $header-sizes: (
   ),
 );
 $header-color: inherit;
-$header-lineheight: 1.4;
-$header-margin-bottom: 0.5rem;
+$header-lineheight: 1.1;
+$header-margin-bottom: 0.5em;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+$paragraph-lineheight: 1.5;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
@@ -208,7 +217,7 @@ $abbr-underline: 1px dotted $black;
 // ---------------------
 
 $lead-font-size: $global-font-size * 1.25;
-$lead-lineheight: 1.6;
+$lead-lineheight: 1.4;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
 $subheader-font-weight: $global-weight-normal;
@@ -297,11 +306,11 @@ $buttongroup-expand-max: 6;
 // 13. Callout
 // -----------
 
-$callout-background: $white;
+$callout-background: $white;//rgba($black, 0.25);
 $callout-background-fade: 85%;
-$callout-border: 1px solid rgba($black, 0.25);
+$callout-border: none; //1px solid rgba($black, 0.25);
 $callout-margin: 0 0 1rem 0;
-$callout-padding: 1rem;
+$callout-padding: 1rem 1.2rem 1.5rem 1.2rem;
 $callout-font-color: $body-font-color;
 $callout-font-color-alt: $body-background;
 $callout-radius: $global-radius;
