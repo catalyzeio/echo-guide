@@ -56,6 +56,7 @@
   &-hollow {
     @include button-hollow($white);
   }
+  font-weight: $font-weight-bold;
 }
 .button-group {
 	.button:not(.button-hollow) {

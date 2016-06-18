@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitchen Sink Demo</title>
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
   </head>
   <body>
 
-    <header class="container-masthead">
+    <header class="masthead">
       <div class="row">
         <div class="small-12 columns">
           <h1 class="header-masthead">The page title is strong with this one.</h1>
@@ -17,7 +18,7 @@
       </div>
       <div class="row">
         <div class="small-12 medium-6 columns">
-          <h2 class="masthead-lead-header">A subtitle keeps things concise.</h2>
+          <h2 class="masthead--subheader">A subtitle keeps things concise.</h2>
           <p class="lead">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. </p>
         </div>
         <div class="small-12 medium-6 columns">
@@ -31,7 +32,7 @@
     <main>
       <section class="section-article">
         <div class="row">
-          <div class="small-12 columns text-center">
+          <div class="small-12 columns text-center section-article--header-group">
             <h1 class="section-article--header">The page title is strong with this one.</h1>
             <h2 class="section-article--subheader">A subtitle keeps things concise.</h2>
           </div>
@@ -42,7 +43,7 @@
             <p>As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.</p>
           </div>
           <div class="small-12 medium-6 columns">
-            <div class="callout callout-dark">
+            <div class="callout callout-brand--primary">
             <h3 class="callout-dark--header">Panel header above some content</h3>
             <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
           </div>
@@ -51,7 +52,7 @@
       </section>
       <section class="section-article container-color--gray">
         <div class="row">
-          <div class="columns text-center">
+          <div class="columns text-center section-article--header-group">
             <img src="https://catalyze.io/assets/img/stratum-icon-circle-w.svg" alt="logo" class="logo logo--white section-article--icon">
             <h2 class="section-article--subheader">Sometimes things get darkest before the dawn</h2>
           </div>
@@ -83,10 +84,28 @@
           </div>
         </div>
       </section>
-      <section class="section-article row container-color--gray-dark">
+      <section class="section-article container-color--gray-dark">
+        <div class="row">
         <div class="columns text-center">
+          <h3 class="section-article--header section-article--header-group">Don't miss this button in a call-to-action section</h3>
           <button class="button button-hollow">Call-to-Action</button>
         </div>
+        </div>
+      </section>
+      <section class="section-article container-image-fill" data-interchange="[assets/img/team-meeting-@1x.jpg, small], [assets/img/team-meeting-@2x.jpg, large]">
+        <div class="row">
+          <div class="small-12 medium-6 large-4 columns callout callout-light">
+            <h2 class="section-article--header">An image section—with responsive images.</h1>
+            <h3 class="section-article--subheader">A different image is loaded on mobile</h2>
+            <div class="section-article--block">
+              <!-- <h4 class="section-article--block-header">1 per row on small</h4> -->
+              <p>Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam</p>
+              <p>As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.</p>
+              <button class="button button-primary">Call-to-Action</button>
+            </div>
+          </div>
+        </div>
+
       </section>
 
     </main>

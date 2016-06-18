@@ -1,24 +1,50 @@
-.container-masthead {
+.masthead {
   color: white;
   background: {
     color: $gray-4;
     image: url('https://catalyze.io/assets/img/distortions/innovation-masthead.jpg');
-    size: cover;
-    repeat: no-repeat;
   };
+  @include background-fill (center center);
   @include container-pad;
+  &--subheader{
+    font: {
+      // size: 1.5em;
+      weight: $font-weight-bold;
+    };
+    opacity: 0.7;
+  }
 }
-.callout-dark {
-  background-color: rgba($black, 0.4);
-  color: $white;
+.container-image-fill {
+  @include background-fill (center top);
+}
+.callout {
+  &-dark {
+    background-color: rgba($black, 0.4);
+    color: $white;
+  }
+  &-light {
+    background-color: white(0.8);
+    //color: $white;
+  }
+  &-brand--primary {
+    background-color: $primary-color;
+    color: $white;
+  }
 }
 .section-article {
   @include container-pad;
   &--header {
     // text-align: center;
+    &-group {
+      margin-bottom: 1em;
+    }
   }
   &--subheader {
-    // text-align: center;
+    font: {
+      size: 1.2rem;
+      weight: $font-weight-bold;
+    };
+    opacity: 0.7;
   }
   &--icon {
     margin-bottom: $pad / 2;
