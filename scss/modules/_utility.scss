@@ -3,63 +3,86 @@
     letter-spacing: 0.2em;
 }
 .circle{
-  border-radius: 50%;
+    border-radius: 50%;
 }
 .grayscale {
-            filter: grayscale(1);
+    filter:         grayscale(1);
     -webkit-filter: grayscale(1);
-    // opacity: $opacity-faded;
+    // opacity:     $opacity-faded;
     &:hover {
-                transition: .3s linear;
+        transition:         .3s linear;
         -webkit-transition: .3s linear;
-                filter: grayscale(0%);
-        -webkit-filter: grayscale(0);
+        filter:             grayscale(0%);
+        -webkit-filter:     grayscale(0);
         //opacity: 1 !important;
     }
 }
 .faded {
-    @include opacity(0.6);
+        @include opacity(0.6);
 }
 .container-color {
-  &--blue {
-    background: $blue;
-    color: white;
-  }
-  &--gray {
-    background: $stratum-gray;
-    background: linear-gradient(to bottom, $stratum-gray 0%, adjust-color($stratum-gray, $lightness: 15%) 100%);
-    color: white;
-  }
-  &--gray-dark {
-    background: $stratum-gray-dark; //adjust-color($stratum-gray, $lightness: 15%);
-    color: white;
-  }
-  &--red {
-    background: $red;
-    color: white;
-  }
-  &--red-dark {
-    background: $red-dark;
-    color: white;
-  }
-  &--tint {
-    background: black(0.5);
-  }
+    &--blue {
+        background: $blue;
+        color: white;
+    }
+    &--gray {
+        background: $stratum-gray;
+        background: linear-gradient(to bottom, $stratum-gray 0%, adjust-color($stratum-gray, $lightness: 15%) 100%);
+        color: white;
+    }
+    &--gray-light {
+        background: $gray-11; //adjust-color($stratum-gray, $lightness: 15%);
+        // color: white;
+    }
+    &--gray-dark {
+        background: $stratum-gray-dark; //adjust-color($stratum-gray, $lightness: 15%);
+        color: white;
+    }
+    &--red {
+        background: $red;
+        color: white;
+    }
+    &--red-dark {
+        background: $red-dark;
+        color: white;
+    }
+    &--tint {
+        background: black(0.5);
+    }
 }
-.button {
-  transition: all 100ms ease-out;
-  // &:hover,
-  // &:focus {
-	//   // border-color: $button-bg-hover;
-  //   transform: translate3d(3px, 0, 0);
-  // }
-  &-hollow {
-    @include button-hollow($white);
-  }
-  font-weight: $font-weight-bold;
+
+.container-image-fill {
+    @include background-fill (center top);
 }
-.button-group {
-	.button:not(.button-hollow) {
-    border: 0;
-  }
+.callout {
+    &-dark {
+        background-color: rgba($black, 0.4);
+        color: $white;
+    }
+    &-light {
+        background-color: white(0.8);
+        //color: $white;
+    }
+    &-brand--primary {
+        background-color: $primary-color;
+        color: $white;
+    }
+    &.button { // for callouts that behave like buttons!
+        // not sure about this approach; .button could be overriding attributes.
+        // I want the hover state to inherit button properties, but not mess with internal layout. Might need a refactor. - AW
+        text-align: initial;
+        font-weight: initial;
+        // color: inherit;
+        &:hover {
+            @include shadow(0, 10px, 0.4);
+        }
+    }
+}
+// These make <section> tags full-width for responsive layouts.
+.full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+    max-width: initial;
 }

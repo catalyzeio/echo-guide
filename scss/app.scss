@@ -49,6 +49,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import 'modules/functions';
+// our stuff
+@import 'modules/functions'; // this must come first
 @import 'modules/utility';
+@import 'modules/ui';
 @import 'sitewide';

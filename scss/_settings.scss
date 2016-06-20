@@ -79,8 +79,8 @@ $blue:         hsl(223, 99%, 53%);
   $blue-dark:  adjust-color($blue, $lightness: -25%, $saturation: -20%);
   $blue-light:  adjust-color($blue, $hue: -10, $lightness: 20%, $saturation: -20%);
 $stratum-gray: hsl(202, 30%, 21%);
-  $stratum-gray-dark:  adjust-color($stratum-gray, $lightness: -10%, $saturation: -10%);
-  $stratum-gray-light:  adjust-color($stratum-gray, $lightness: 25%, $saturation: -20%);
+  $stratum-gray-dark:   adjust-color($stratum-gray, $lightness: -8%, $saturation: -15%);
+  $stratum-gray-light:  adjust-color($stratum-gray, $lightness: 25%, $saturation: -15%);
 $red:          hsl(1, 70%, 53%);
   $red-dark:  adjust-color($red, $lightness: -25%, $saturation: -25%);
   $red-light:  adjust-color($red, $lightness: 25%, $saturation: -25%);
@@ -128,7 +128,7 @@ $breakpoints: (
   xlarge: 1200px,
   xxlarge: 1440px,
 );
-$breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xlarge);
 
 // 3. The Grid
 // -----------

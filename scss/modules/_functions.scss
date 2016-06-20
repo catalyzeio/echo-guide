@@ -1,39 +1,40 @@
+// functions includes mixins for now
 @function black($opacity) {
-  @return rgba(0,0,0,$opacity);
+    @return rgba(0,0,0,$opacity);
 }
 
 @function white($opacity) {
-  @return rgba(255,255,255,$opacity);
+    @return rgba(255,255,255,$opacity);
 }
 
 @mixin shadow($offset, $blur, $opacity) {
-  box-shadow: $offset $offset $blur black($opacity);
+    box-shadow: $offset $offset $blur black($opacity);
 }
 @mixin opacity($alpha){
 	opacity: $alpha;
 }
 @mixin container-pad() {
-  padding: 2em; //legacy
-  padding: 5vw 4vw;
+    padding: 2em; //legacy
+    padding: 5vw 4vw;
 }
 // centered bg images
 
 @mixin background-fill ($align...) { // center center
-  background:{
-    repeat: no-repeat;
-    position: $align;
-    size: cover;
-  }
+    background:{
+        repeat: no-repeat;
+        position: $align;
+        size: cover;
+    }
 }
 @mixin button-hollow($color){
-  $button-border-width: 2px;
-  background-color: transparent;
-  border: $button-border-width solid $color;
-  color: $color;
-  &:hover,
-  &:focus {
-    border: $button-border-width solid adjust-color($color, $lightness: 15%);;
+    $button-border-width: 2px;
     background-color: transparent;
-    color: adjust-color($color, $lightness: 15%);
-  }
+    border: $button-border-width solid $color;
+    color: $color;
+    &:hover,
+    &:focus {
+        border: $button-border-width solid adjust-color($color, $lightness: 15%);;
+        background-color: transparent;
+        color: adjust-color($color, $lightness: 15%);
+    }
 }

@@ -1,0 +1,17 @@
+.button {
+  transition: all 100ms ease-out;
+  // &:hover,
+  // &:focus {
+	//   // border-color: $button-bg-hover;
+  //   transform: translate3d(3px, 0, 0);
+  // }
+  &-hollow {
+    @include button-hollow($white);
+  }
+  font-weight: $font-weight-bold;
+}
+.button-group {
+	.button:not(.button-hollow) {
+    border: 0;
+  }
+}
