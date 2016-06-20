@@ -160,7 +160,7 @@ $header-sizes: (
   ),
   medium: (
     'h1': 42,
-    'h2': 31,
+    'h2': 30,
     'h3': 26,
     'h4': 22,
     'h5': 18,
@@ -169,7 +169,7 @@ $header-sizes: (
   large: (
     'h1': 52,
     'h2': 42,
-    'h3': 31,
+    'h3': 30,
     'h4': 25,
     'h5': 20,
     'h6': 16,
@@ -184,19 +184,19 @@ $header-small-font-color: $medium-gray;
 $paragraph-lineheight: 1.5;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
-$code-color: $black;
+$code-color: inherit;
 $code-font-family: $font-family-monospace;
 $code-font-weight: $global-weight-normal;
-$code-background: $light-gray;
-$code-border: 1px solid $medium-gray;
+$code-background: rgba(255,255,255,0.2); //$light-gray;
+$code-border: none; //1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: underline;
-$hr-width: $global-width;
-$hr-border: 1px solid $medium-gray;
-$hr-margin: rem-calc(20) auto;
+$hr-width: $global-width - $pad;
+$hr-border: 1px solid rgba(100,100,100,0.2);//$medium-gray;
+$hr-margin: rem-calc($pad * 1.5) auto;
 $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
 $list-style-type: disc;

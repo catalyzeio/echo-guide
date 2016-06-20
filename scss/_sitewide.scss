@@ -40,6 +40,8 @@
       size: 1rem;
       weight: $font-weight-bold;
     }
-    @extend .spaced-out;
+    &-caps{
+        @extend .spaced-out;
+    }
   }
 }
