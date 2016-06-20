@@ -38,3 +38,10 @@
         color: adjust-color($color, $lightness: 15%);
     }
 }
+// pass any arguments to a flex: statement
+@mixin flex-it ($set...){
+    -webkit-box-flex: 0;
+        -webkit-flex: $set;
+            -ms-flex: $set;
+                flex: $set;
+}

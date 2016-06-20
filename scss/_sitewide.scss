@@ -40,8 +40,29 @@
       size: 1rem;
       weight: $font-weight-bold;
     }
-    &-caps{
-        @extend .spaced-out;
-    }
   }
+}
+.container{
+    &--logo-cluster {
+        @include flex;
+        @include flex-align(center, middle);
+        @include breakpoint(large up) {
+            max-width: 80%;
+        }
+    }
+}
+.customer {
+    @include flex-it(0 0 auto);
+    padding: 1.5vw;
+}
+.logo {
+    &--customer {
+        height: 6vw;
+        @include breakpoint(medium up) {
+            height: 3vw;
+        }
+        @include breakpoint(large up) {
+            height: 2.5vw;
+        }
+    }
 }
