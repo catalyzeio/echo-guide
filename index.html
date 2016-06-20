@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kitchen Sink Demo</title>
+        <title>Echo II Styling</title>
         <link rel="stylesheet" href="css/app.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
+        <!-- AW: We'll discuss icons separately (icon vs. inline svg). I went through a very in-depth look at this topic in the last pattern library I built. For now, Google's Material Icons & method is pretty clean. We can leverage that for icons for now. -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
 
@@ -63,10 +65,11 @@
                         <p>As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.</p>
                     </div>
                     <div class="small-12 medium-6 columns">
-                        <button class="callout button">
+                        <div class="callout callout--hover">
                             <h3 class="">This panel acts like a button</h3>
-                            <p>I want the hover state to inherit button properties, but not mess with internal layout. Might need a refactor. - AW Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
-                        </button>
+                            <p>This is a <a href="http://google.github.io/material-design-icons/" title="Material Design Lite System">material-design-style</a> effect, to make it appear to move toward the viewer a bit. Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+                            <button class="button info small">Call-to-Action<i class="material-icons">keyboard_arrow_right</i></button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -121,7 +124,7 @@
                             <!-- <h4 class="section-article--block-header">1 per row on small</h4> -->
                             <p>Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam</p>
                             <p>As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.</p>
-                            <button class="button button-primary">Call-to-Action</button>
+                            <button class="button success large expanded">It's good <i class="material-icons">check</i></button>
                         </div>
                     </div>
                 </div>

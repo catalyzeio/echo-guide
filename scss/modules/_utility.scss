@@ -67,14 +67,11 @@
         background-color: $primary-color;
         color: $white;
     }
-    &.button { // for callouts that behave like buttons!
-        // not sure about this approach; .button could be overriding attributes.
-        // I want the hover state to inherit button properties, but not mess with internal layout. Might need a refactor. - AW
-        text-align: initial;
-        font-weight: initial;
-        // color: inherit;
+    &--hover { // for callouts that behave like buttons!
+        transition: box-shadow 200ms ease-out;
+        @include shadow(0, 0, 0.2);
         &:hover {
-            @include shadow(0, 10px, 0.4);
+            @include shadow(0, 20px, 0.6);
         }
     }
 }
@@ -85,4 +82,8 @@
     margin-right: auto;
     max-width: none;
     max-width: initial;
+}
+.material-icons { // overrides from default google settings
+    vertical-align: middle;
+    font-size: 140% !important;
 }
