@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="30px" viewBox="0 0 23 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>white/icon-ui-lock-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons,-utility-white" transform="translate(-677.000000, -367.000000)" fill="#FFFFFF">
+            <g id="white/icon-ui-lock-white" transform="translate(677.000000, 367.000000)">
+                <g id="Path">
+                    <g id="PaaS">
+                        <g id="products">
+                            <g id="Products">
+                                <g id="PaaS">
+                                    <g id="Features">
+                                        <g id="PaaS-List">
+                                            <g id="Encryption">
+                                                <g id="Lock-2" transform="translate(0.000000, 0.030088)">
+                                                    <path d="M15.3890663,13.1406003 L6.89352498,13.1406003 L4.66041126,13.1406003 C0,13.1406003 0,12.3406003 0,19.4423405 L0,23.2873533 C0,30.3890936 0,29.5890936 4.66041126,29.5890936 L17.4279963,29.5890936 C22.0884075,29.5890936 22.0884075,30.3890936 22.0884075,23.2873533 L22.0884075,19.4423405 C22.0884075,12.3406003 22.0884075,13.1406003 17.4279963,13.1406003 L15.3890663,13.1406003 L15.3890663,13.1406003 Z M4.80487971,11.5003373 L4.80487971,5.50877091 C4.80487971,2.37565024 7.64443141,1.18028448e-09 11.1832047,1.65675829e-09 C14.7219779,2.13323198e-09 17.4686918,2.15968203 17.4686918,5.29280272 L17.4686918,11.5003373 L15.1252587,11.5003373 L15.1252587,5.71055211 C15.1252585,4.56270864 13.7413628,2.29762182 11.1952114,2.29762184 C8.64905989,2.29762186 7.34359906,4.45730384 7.34359906,5.71055211 L7.34359906,11.5003373 L4.80487971,11.5003373 L4.80487971,11.5003373 Z" id="Path"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

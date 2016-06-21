@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="32px" viewBox="0 0 29 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>white/icon-ui-content-white-papers-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28.1904762" height="31.2380952"></rect>
+    </defs>
+    <g id="white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons,-utility-white" transform="translate(-103.000000, -897.000000)">
+            <g id="white/icon-ui-content-white-papers-white" transform="translate(103.000000, 897.000000)">
+                <g id="icon-content-white-papers">
+                    <g id="Page-1">
+                        <g id="solo-icons">
+                            <g id="icon-content-white-papers">
+                                <g id="Rectangle-1-Clipped">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Rectangle-path"></g>
+                                    <g id="Rectangle-1" mask="url(#mask-2)" fill="#FFFFFF">
+                                        <path d="M2.39443223,2.09319632 C2.39443223,2.09483056 2.38734956,2.10197775 2.40623141,2.10197775 L25.7842448,2.10197775 C25.7856223,2.10197775 25.796044,2.11251171 25.796044,2.09319632 L25.796044,29.1448989 C25.796044,29.1432647 25.8031266,29.1361175 25.7842448,29.1361175 L2.40623141,29.1361175 C2.4048539,29.1361175 2.39443223,29.1255835 2.39443223,29.1448989 L2.39443223,2.09319632 L2.39443223,2.09319632 Z M0,3.03945196 L0,28.1986433 C0,29.8668185 1.37727688,31.2380952 3.05875954,31.2380952 L25.1317166,31.2380952 C26.8286068,31.2380952 28.1904762,29.8843954 28.1904762,28.1986433 L28.1904762,3.03945196 C28.1904762,1.37127669 26.8131993,0 25.1317166,0 L3.05875954,0 C1.3618694,0 0,1.35369987 0,3.03945196 L0,3.03945196 Z" id="path-1"></path>
+                                    </g>
+                                </g>
+                                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(14.476190, 6.857143) rotate(1.000000) translate(-14.476190, -6.857143) " x="6.0952381" y="6.0952381" width="16.7619048" height="1.52380952"></rect>
+                                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(12.952381, 11.428571) rotate(1.000000) translate(-12.952381, -11.428571) " x="6.0952381" y="10.6666667" width="13.7142857" height="1.52380952"></rect>
+                                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(13.714286, 16.000000) rotate(1.000000) translate(-13.714286, -16.000000) " x="6.0952381" y="15.2380952" width="15.2380952" height="1.52380952"></rect>
+                                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(11.428571, 20.571429) rotate(1.000000) translate(-11.428571, -20.571429) " x="6.0952381" y="19.8095238" width="10.6666667" height="1.52380952"></rect>
+                                <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(12.952381, 25.142857) rotate(1.000000) translate(-12.952381, -25.142857) " x="6.0952381" y="24.3809524" width="13.7142857" height="1.52380952"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
