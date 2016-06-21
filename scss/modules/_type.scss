@@ -25,7 +25,7 @@ blockquote {
     }
     opacity: 0.5;
     @extend .spaced-out;
-    margin-bottom: $pad;
+    margin-bottom: $pad * 0.5;
 }
 li {
     line-height: $paragraph-lineheight * 0.9;

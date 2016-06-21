@@ -26,7 +26,7 @@
             </div>
         </header>
         <main>
-            <section class="section-article">
+            <section class="section-article" id="content-top">
                 <div class="row">
                     <div class="columns small-12">
                         <h1 class="">Typography</h1>
@@ -35,13 +35,13 @@
                 </div>
                 <div class="row">
                     <div class="columns small-12 medium-12 large-4">
-                        <h3 class="subheader--spaced-out">Headers</h3>
+                        <h2 class="subheader--spaced-out">Headers</h2>
                         <dl class="typo-styles">
                             <dt>h1</dt>
                             <dd>
                                 <h1 class="typo-styles--demo mdl-typography--display-4">Light 52pt</h1>
                                 <div class="typo-styles--desc">
-                                    <span class="typo-styles__name">display-4</span>
+                                    <span class="typo-styles__name">headline-1</span>
                                     <span class="typo-styles__weight">font weight 300</span>
                                 </div>
                             </dd>
@@ -49,7 +49,7 @@
                             <dd>
                                 <h2 class="typo-styles--demo mdl-typography--display-3">Regular 42pt</h2>
                                 <div class="typo-styles--desc">
-                                    <span class="typo-styles__name">display-3</span>
+                                    <span class="typo-styles__name">headline-2</span>
                                     <span class="typo-styles__weight">font weight 300</span>
                                 </div>
                             </dd>
@@ -57,7 +57,7 @@
                             <dd>
                                 <h3 class="typo-styles--demo mdl-typography--display-2">Regular 30pt</h3>
                                 <div class="typo-styles--desc">
-                                    <span class="typo-styles__name">display-2</span>
+                                    <span class="typo-styles__name">headline-3</span>
                                     <span class="typo-styles__weight">font weight 400</span>
                                 </div>
                             </dd>
@@ -65,7 +65,7 @@
                             <dd>
                                 <h4 class="typo-styles--demo mdl-typography--display-1">Regular 22pt</h4>
                                 <div class="typo-styles--desc">
-                                    <span class="typo-styles__name">display-1</span>
+                                    <span class="typo-styles__name">headline-4</span>
                                     <span class="typo-styles__weight">font weight 700</span>
                                 </div>
                             </dd>
@@ -73,7 +73,7 @@
                             <dd>
                                 <h5 class="typo-styles--demo mdl-typography--headline">Regular 18pt</h5>
                                 <div class="typo-styles--desc">
-                                    <span class="typo-styles__name">headline</span>
+                                    <span class="typo-styles__name">headline-5</span>
                                     <span class="typo-styles__weight">font weight 700 italic</span>
                                 </div>
                             </dd>
@@ -86,9 +86,20 @@
                                 </div>
                             </dd>
                         </dl>
+                    <hr class="content">
+                    <div class="" data-sticky-container>
+                        <nav class=" sticky" data-sticky data-anchor="second" data-sticky-on="large">
+                            <ul class="vertical menu" data-magellan>
+                                <li><a href="#content-top">Intro</a></li>
+                                <li><a href="#second">Section 2</a></li>
+                                <li><a href="#third">Section 3</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                     </div>
                     <div class="columns small-12 medium-12 large-8">
-                        <h3 class="subheader--spaced-out">Text</h3>
+                        <h2 class="subheader--spaced-out">Text</h2>
+                        <h3>A collection of words</h3>
                         <p>In part 2 of our healthcare innovators series, Catalyze co-founder &amp; president Mohan Balachandran continues his conversations with Grahame Grieve ("The Father of FHIR"). Grahame specializes in healthcare interoperability, balancing clinical, management and business perspectives, using his deep technical knowledge and capability. </p>
                         <hr>
                         <p><em>Question 1 (Mohan):</em> Can you talk about the rationale behind the creation of FHIR?</p>
@@ -101,7 +112,7 @@
                         </blockquote>
                         <p><em>Question 3 (Mohan):</em> FHIR seems to be very patient centric and all the associated resources around it. Is that how you are thinking about it — that the patient should be at the center of all the data models and data exchanges?</p>
                         <hr class="content">
-                        <div class="row">
+                        <div class="row" id="second">
                         <div class="columns small-12 medium-12 large-6">
                             <h4>This session's key insights</h4>
                             <ol>
@@ -121,7 +132,28 @@
                             </ul>
                         </div>
                         </div>
-
+                        <hr class="divider">
+                        <h4>A word from the blogs</h4>
+                        <h3>The Advantages and Measures of Outsourcing in Healthcare</h3>
+                        <p>Healthcare providers are facing increasingly severe economic and social pressures that ultimately affect their service budgets and the ability to deliver on quality services. As with all businesses, providers must also overcome the tremendous pressures of industry competition. In an age where thriving is equivalent to surviving,  an attractive approach for the healthcare industry is outsourcing. While manifesting a vast array of diverse and complex services, hospitals are a distinctly lush domain for outsourcing many functions.</p>
+                        <p>There really are many advantages to providing services by utilizing an internal staff. The weighty benefit is price, assuming that service qualities are comparable. An additional two motives for keeping services in-house are reliable continuity and vested interests. An internal staff has a heightened understanding of the patient requirements and procedures necessary in a multitude of situations. Additionally is the anticipation of continuity. Staff will need to face actionable consequences, leading to increased strategic alignment through fortified internal and client relationships.</p>
+                        <p>Expectations of the healthcare consumer are growing, and so are the costs and the competition. Although there are advantages of keeping services in-house, outsourcing offers several unique values. Healthcare is an ever-changing environment where profits plummet, capacity crashes, and service levels slump. In this framework, the advantages of outsourcing non-medical services is a viable strategy to be considered.</p>
+                        <p>With increasing service volumes, costs per service unit will lessen, meaning outsourcing services can preserve resources through scaling economies. Independent hospitals may be unable to meet the expense levels achieved by external providers when combining their service volumes to various service units. However, outsourcing can only reduce cost when three requisites are met – 1. there are economies of scale, 2. the economies transcend corporate boundaries, and 3. the savings are sufficient to generate profit even after paying off all stakeholders.</p>
+                        <figure id="third">
+                            <img src="https://cdn-images-1.medium.com/max/800/1*jpTyvqM4Xbgl1mNNx_uwDw.png" alt="Graph" class="article-content-image">
+                            <figcaption>There are trends, then there are <strong>trends</strong>.</figcaption>
+                        </figure>
+                        <p>The modern need to outsource is rooted in the generational desire to be proactive. Hospitals are incessantly on the brink of slighting margins, increasing patient expectations and minimal federal support. However, hospitals now understand the costs of reactive, short-term, tactical solutions to immediate issues. The key to survival lies in leveraging organizational attributes while enacting continuous incremental improvements in effectiveness and efficiency – more often than not by using third-party vendors.</p>
+                        <p>With that said, healthcare entities need some benchmark metrics to assess the true value of an increased commitment to outsourcing its services at both holistic and strategic levels.</p>
+                        <ul>
+                        <li><strong>Employee Gratification</strong>: Does internal staff experience increased satisfaction due to outsourced functions and being capable to invest more of time in strategic and innovative initiatives?</li>
+                        <li><strong>Consumer Satisfaction</strong>: Is the outside provider delivering equal or increased service to consumers in contrast to in-house services? Is staff more attentive to core functions due to outsourcing?</li>
+                        <li><strong>Economic Value Contribution</strong>: Does the external vendor deliver more efficiently to achieve cost savings? Is the entity able to evade additional costs by outsourcing?</li>
+                        <li><strong>Competitive Advantages</strong>: Is there a competitive edge with outsourcing? Are prospective and existing clients increasing service engagements because of outsourced services?</li>
+                        <li><strong>Allocation of Resources</strong>: Is the service provider reliably delivering the required quality and scope through dedicated resources: labor, technology, knowledge, and assets? Is the current allocation of resources appropriate for the agreed upon objective? Is the resource division mutually satisfactory?</li>
+                        </ul>
+                        <p>In sum, the advantages of outsourcing are that hospitals can assume access to asset improvement funds, widespread risk sharing, increased cost avoidance and savings, considerable resource access, enhanced employee retention, and raised patient satisfaction.  Long-term strategic, transformative partnerships with vendors may introduce market opportunities beyond either party’s core competence. A few long-term, strategic service vendors may be a more fruitful arrangement in comparison to a multitude of narrow-focused, short-term, one-off relationships.</p>
+                        <p>Questions? Reach out to us <a href="mailto:hello@catalyze.io">directly</a>, <a href="https://twitter.com/catalyzeio">tweet us</a>, or provide us your contact information to the right. We’ll solve your problem so you can focus on your solution.</p>
                     </div>
                 </div>
             </section>
@@ -130,6 +162,7 @@
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/what-input/what-input.js"></script>
         <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+        <script src="bower_components/foundation-sites/dist/plugins/foundation.magellan.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
