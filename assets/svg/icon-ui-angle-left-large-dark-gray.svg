@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="23px" height="64px" viewBox="0 0 23 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>dark gray/icon-ui-angle-left-large-dark-gray</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="gray" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icons,-utility-(gray)" transform="translate(-406.000000, -1021.000000)" fill="#242F36">
-            <g id="dark-gray/icon-ui-angle-left-large-dark-gray" transform="translate(406.000000, 1021.000000)">
-                <g id="Path-1">
-                    <g id="Page-1">
-                        <polygon id="Path-1" points="22.1390169 62.7753455 2.74831792 30.8377236 2.75459597 32.0111809 21.0046656 1.21418841 19.042118 0.0511972736 0.792048421 30.8481898 0.443241573 31.4368013 0.798326466 32.021647 20.1890254 63.9592688"></polygon>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="23" height="64" viewBox="0 0 23 64" xmlns="http://www.w3.org/2000/svg"><title>dark gray/icon-ui-angle-left-large-dark-gray</title><path d="M22.139 62.775L2.749 30.838l.006 1.173 18.25-30.797L19.042.051.792 30.848l-.349.589.355.585L20.19 63.959z" fill="#242F36" fill-rule="evenodd"/></svg>

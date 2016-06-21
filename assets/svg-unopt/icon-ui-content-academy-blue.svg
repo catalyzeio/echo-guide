@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="54px" height="31px" viewBox="0 0 54 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>blue/icon-ui-content-academy-blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="blue,-base" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons,-utility-(blue)" transform="translate(-249.000000, -1183.000000)" fill="#1055FF">
+            <g id="blue/icon-ui-content-academy-blue" transform="translate(249.400000, 1183.000000)">
+                <g id="icon-content-academy">
+                    <g id="Page-1">
+                        <g id="solo-icons">
+                            <g id="icon-content-academy">
+                                <path d="M26.6153846,1.07692308 L2.61538462,11.0769231 L0.4,12 L2.61538462,12.9230769 L26.6153846,22.9230769 L27,23.0833333 L27.3846154,22.9230769 L51.3846154,12.9230769 L53.6,12 L51.3846154,11.0769231 L27.3846154,1.07692308 L27,0.916666667 L26.6153846,1.07692308 L26.6153846,1.07692308 Z M27.3846154,2.92307692 L26.6153846,2.92307692 L50.6153846,12.9230769 L50.6153846,11.0769231 L26.6153846,21.0769231 L27.3846154,21.0769231 L3.38461538,11.0769231 L3.38461538,12.9230769 L27.3846154,2.92307692 L27.3846154,2.92307692 Z" id="Path-16"></path>
+                                <path d="M12,16 L12,27.9941414 C12,29.6555496 13.3489303,31 15.0136909,31 L38.986309,31 C40.6559324,31 42,29.6714373 42,27.9941414 L42,16 L40,16 L40,27.9941414 C40,28.5616399 39.5565241,29 38.986309,29 L15.0136909,29 C14.4520132,29 14,28.549488 14,27.9941414 L14,16 L12,16 L12,16 Z" id="Path-17"></path>
+                                <polygon id="Path-18" points="26.8538333 12.98926 44.1341067 15.5424826 43.2802734 14.5532227 43.2802734 22.652702 45.2802734 22.652702 45.2802734 14.5532227 45.2802734 13.6901196 44.4264401 13.5639627 27.1461667 11.01074"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

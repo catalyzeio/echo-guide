@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>white/icon-ui-tri-right-white</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icons,-utility-white" transform="translate(-780.000000, -1043.000000)" fill="#FFFFFF">
-            <polygon id="white/icon-ui-tri-right-white" transform="translate(785.500000, 1052.931034) rotate(-90.000000) translate(-785.500000, -1052.931034) " points="785.5 1058.43103 795.431034 1047.43103 775.568966 1047.43103"></polygon>
-        </g>
-    </g>
-</svg>
+<svg width="11" height="20" viewBox="0 0 11 20" xmlns="http://www.w3.org/2000/svg"><title>white/icon-ui-tri-right-white</title><path d="M11 9.931L0 0v19.862z" fill="#FFF" fill-rule="evenodd"/></svg>

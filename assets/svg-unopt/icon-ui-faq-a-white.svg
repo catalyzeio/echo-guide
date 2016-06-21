@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>white/icon-ui-faq-a-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons,-utility-white" transform="translate(-543.000000, -501.000000)" fill="#FFFFFF">
+            <g id="white/icon-ui-faq-a-white" transform="translate(543.000000, 501.000000)">
+                <g id="icon-faq-q-copy">
+                    <g id="Page-1">
+                        <path d="M16,32 C24.836556,32 32,24.836556 32,16 C32,7.163444 24.836556,0 16,0 C7.163444,0 0,7.163444 0,16 C0,24.836556 7.163444,32 16,32 L16,32 Z M16,30.6666667 C24.1001763,30.6666667 30.6666667,24.1001763 30.6666667,16 C30.6666667,7.89982367 24.1001763,1.33333333 16,1.33333333 C7.89982367,1.33333333 1.33333333,7.89982367 1.33333333,16 C1.33333333,24.1001763 7.89982367,30.6666667 16,30.6666667 L16,30.6666667 Z M15.3777777,9.472 L17.1217777,9.472 L22.0017777,20.8 L19.6977777,20.8 L18.6417777,18.208 L13.7297777,18.208 L12.7057778,20.8 L10.4497778,20.8 L15.3777777,9.472 L15.3777777,9.472 Z M17.9377777,16.48 L16.1937777,11.872 L14.4177777,16.48 L17.9377777,16.48 L17.9377777,16.48 Z" id="icon-faq-q-copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

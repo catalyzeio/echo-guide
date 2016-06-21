@@ -30,7 +30,9 @@
     opacity: 0.7;
   }
   &--icon {
-    margin-bottom: $pad / 2;
+    margin-bottom: $pad / 3;
+    height: 42px;
+    width:  42px;
   }
   &--block {
     margin-bottom: $pad / 2;
