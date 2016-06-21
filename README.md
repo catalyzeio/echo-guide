@@ -9,9 +9,15 @@ To use this template, your computer needs:
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+This template can be installed with the Foundation CLI (recommended - @allanwhite), or downloaded and set up manually.
 
-### Using the CLI
+### Notes by @allanwhite
+
+* The above install notes will need revision; they're based on the foundation sites template, which we have customized. You should be able to download this repo and run the dependency installs (`npm install`, `bower install`). New packages should be added to the `bower.json` file by adding the `--save` flag when installing.
+* The customized version uses `svg-inject` to inline SVGs; the JS won't work locally unless it's run with a webserver.
+
+
+### Using the Foundation CLI
 
 Install the Foundation CLI with this command:
 
@@ -45,6 +51,4 @@ bower install
 
 Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
 
-### Notes
-
-The customized version uses `svg-inject` to inline SVGs; the JS won't work locally unless it's run with a webserver.
+Allan says: Running `foundation watch` runs `gulp` and compiles the sass. It should also run any other tasks specified in the `gulpfile`. 
