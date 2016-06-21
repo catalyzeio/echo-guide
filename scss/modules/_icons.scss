@@ -1,0 +1,56 @@
+// SVG icon & logo attributes
+.icon {
+    &-size {
+        &--small { // inline with content
+            width:  24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+        &--medium {
+            width:  48px;
+            height: 48px;
+            margin-bottom: 0.5em;
+        }
+        &--large {
+            width:  64px;
+            height: 64px;
+            margin-bottom: 1em;
+        }
+    }
+}
+// logos are non-square and need different attributes. If there's a more elegant way to do this, I'm all ears. - AW
+.logo {
+    &-size {
+        &--small { // inline with content
+            max-width: 90%;
+            @include breakpoint(medium up) {
+                height: 24px;
+            }
+        }
+        &--medium {
+            max-width: 90%;
+            @include breakpoint(medium up) {
+                height: 48px;
+            }
+        }
+        &--large {
+            max-width: 90%;
+            @include breakpoint(medium up) {
+                height: 64px;
+            }
+        }
+    }
+}
+.svg {
+    &-color { // styling inlined SVG here
+        &--white path {
+            fill: $white;
+        }
+        &--brand path {
+            fill: $primary-color;
+        }
+        &--gray path {
+            fill: $stratum-gray;
+        }
+    }
+}

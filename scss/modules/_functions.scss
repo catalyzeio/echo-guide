@@ -27,15 +27,15 @@
     }
 }
 @mixin button-hollow($color){
-    $button-border-width: 2px;
+    $button-border-width: 1px;
     background-color: transparent;
     border: $button-border-width solid $color;
     color: $color;
     &:hover,
     &:focus {
-        border: $button-border-width solid adjust-color($color, $lightness: 15%);;
+        border: $button-border-width solid adjust-color($color, $lightness: 20%);
         background-color: transparent;
-        color: adjust-color($color, $lightness: 15%);
+        color: adjust-color($color, $lightness: 20%);
     }
 }
 // pass any arguments to a flex: statement
@@ -44,4 +44,12 @@
         -webkit-flex: $set;
             -ms-flex: $set;
                 flex: $set;
+}
+
+@mixin fx-hover-nudge {
+    transition: all 100ms ease-out;
+    &:focus,
+    &:hover {
+        transform: translate3d(3px, 0, 0);
+    }
 }

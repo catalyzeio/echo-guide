@@ -151,11 +151,11 @@ $header-font-style: normal;
 $font-family-monospace: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 28,
-    'h2': 22,
-    'h3': 19,
-    'h4': 18,
-    'h5': 17,
+    'h1': 42,
+    'h2': 30,
+    'h3': 26,
+    'h4': 22,
+    'h5': 18,
     'h6': 16,
   ),
   medium: (
@@ -293,9 +293,9 @@ $button-color: $white;
 $button-color-alt: $black;
 $button-radius: $global-radius;
 $button-sizes: (
-  tiny: 0.6rem,
-  small: 0.75rem,
-  default: 0.9rem,
+  tiny: 0.4rem,
+  small: 0.6rem,
+  default: 0.8rem,
   large: 1.25rem,
 );
 $button-opacity-disabled: 0.25;

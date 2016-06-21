@@ -1,48 +1,47 @@
 .masthead {
-  color: white;
-  background: {
-    color: $stratum-gray-dark;
-  };
-  // @include background-fill (center center);
-  @include container-pad;
-  &--subheader{
-    font: {
-      size: 1.5em;
-      weight: $font-weight-bold;
+    color: white;
+    background: {
+        color: $stratum-gray-dark;
     };
-    opacity: 0.7;
-  }
+    // @include background-fill (center center);
+    @include container-pad;
+    &--subheader {
+        font: {
+            size: 1.5em;
+            weight: $font-weight-bold;
+        };
+        opacity: 0.7;
+    }
 }
-
 .section-article {
-  @include container-pad;
-  &--header {
-    // text-align: center;
-    &-group {
-      margin-bottom: 1em;
+    @include container-pad;
+    &--header {
+        // text-align: center;
+        &-group {
+            margin-bottom: 1em;
+        }
     }
-  }
-  &--subheader {
-    font: {
-      size: 1.2rem;
-      weight: $font-weight-bold;
-    };
-    opacity: 0.7;
-  }
-  &--icon {
-    margin-bottom: $pad / 3;
-    height: 42px;
-    width:  42px;
-  }
-  &--block {
-    margin-bottom: $pad / 2;
-  }
-  &--block-header {
-    font: {
-      size: 1rem;
-      weight: $font-weight-bold;
+    &--subheader {
+        font: {
+            size: 1.2rem;
+            weight: $font-weight-bold;
+        };
+        opacity: 0.7;
     }
-  }
+    &--icon {
+        margin-bottom: $pad / 3;
+        height: 42px;
+        width: 42px;
+    }
+    &--block {
+        margin-bottom: $pad / 2;
+    }
+    &--block-header {
+        font: {
+            size: 1rem;
+            weight: $font-weight-bold;
+        }
+    }
 }
 .container{
     &--logo-cluster {
@@ -55,6 +54,7 @@
 }
 .customer {
     @include flex-it(0 0 auto);
+    @include fx-hover-nudge();
     padding: 1.5vw;
 }
 .logo {
@@ -65,6 +65,13 @@
         }
         @include breakpoint(large up) {
             height: 2.5vw;
+        }
+    }
+}
+.icon {
+    &-inline {
+        &--white{
+            fill: white;
         }
     }
 }

@@ -20,40 +20,42 @@
 .faded {
     @include opacity(0.6);
 }
-.container-color {
-    &--blue {
-        background: $blue;
-        color: white;
+.container {
+    &-image-fill {
+        @include background-fill (center top);
     }
-    &--gray {
-        background: $stratum-gray;
-        background: linear-gradient(to bottom, $stratum-gray 0%, adjust-color($stratum-gray, $lightness: 15%) 100%);
-        color: white;
-    }
-    &--gray-light {
-        background: $gray-11; //adjust-color($stratum-gray, $lightness: 15%);
-        // color: white;
-    }
-    &--gray-dark {
-        background: $stratum-gray-dark; //adjust-color($stratum-gray, $lightness: 15%);
-        color: white;
-    }
-    &--red {
-        background: $red;
-        color: white;
-    }
-    &--red-dark {
-        background: $red-dark;
-        color: white;
-    }
-    &--tint {
-        background: black(0.5);
+    &-color {
+        &--blue {
+            background: $blue;
+            color: white;
+        }
+        &--gray {
+            background: $stratum-gray;
+            background: linear-gradient(to bottom, $stratum-gray 0%, adjust-color($stratum-gray, $lightness: 15%) 100%);
+            color: white;
+        }
+        &--gray-light {
+            background: $gray-11; //adjust-color($stratum-gray, $lightness: 15%);
+            // color: white;
+        }
+        &--gray-dark {
+            background: $stratum-gray-dark; //adjust-color($stratum-gray, $lightness: 15%);
+            color: white;
+        }
+        &--red {
+            background: $red;
+            color: white;
+        }
+        &--red-dark {
+            background: $red-dark;
+            color: white;
+        }
+        &--tint {
+            background: black(0.5);
+        }
     }
 }
 
-.container-image-fill {
-    @include background-fill (center top);
-}
 .callout {
     &-dark {
         background-color: rgba($black, 0.4);
@@ -65,6 +67,10 @@
     }
     &-brand--primary {
         background-color: $primary-color;
+        color: $white;
+    }
+    &-brand--secondary {
+        background-color: $stratum-gray-light;
         color: $white;
     }
     &--hover { // for callouts that behave like buttons!
@@ -83,15 +89,11 @@
     max-width: none;
     max-width: initial;
 }
-.material-icons { // overrides from default google settings
-    vertical-align: middle;
-    font-size: 140% !important;
-}
-.icon {
-    &--content {
-        margin-bottom: 0.5em;
-    }
-}
+// .material-icons { // overrides from default google settings
+//     vertical-align: middle;
+//     font-size: 140% !important;
+// }
+
 figure {
     margin: 0 0 $pad 0;
     figcaption {

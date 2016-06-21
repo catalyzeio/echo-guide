@@ -1,17 +1,21 @@
 .button {
-  transition: all 100ms ease-out;
-  // &:hover,
-  // &:focus {
-	//   // border-color: $button-bg-hover;
-  //   transform: translate3d(3px, 0, 0);
-  // }
-  &-hollow {
-    @include button-hollow($white);
-  }
-  font-weight: $font-weight-bold;
+    @include fx-hover-nudge();
+    &-hollow {
+        @include button-hollow($primary-color);
+    }
+    &-hollow--white {
+        @include button-hollow($white);
+    }
+    &-hollow--secondary {
+        @include button-hollow($stratum-gray-light);
+    }
+    &-hollow--red {
+        @include button-hollow($red);
+    }
+    font-weight: $font-weight-bold;
 }
 .button-group {
-	.button:not(.button-hollow) {
-    border: 0;
-  }
+    .button:not(.button-hollow) {
+        border: 0;
+    }
 }

@@ -1255,19 +1255,19 @@ h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 1.75rem; }
+  font-size: 2.625rem; }
 
 h2 {
-  font-size: 1.375rem; }
+  font-size: 1.875rem; }
 
 h3 {
-  font-size: 1.1875rem; }
+  font-size: 1.625rem; }
 
 h4 {
-  font-size: 1.125rem; }
+  font-size: 1.375rem; }
 
 h5 {
-  font-size: 1.0625rem; }
+  font-size: 1.125rem; }
 
 h6 {
   font-size: 1rem; }
@@ -1517,7 +1517,7 @@ kbd {
   border-radius: 4px;
   padding: 0.75em 0.9em;
   margin: 0 0 1rem 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   background-color: #1054fe;
   color: #fff; }
   [data-whatinput='mouse'] .button {
@@ -1526,9 +1526,9 @@ kbd {
     background-color: #0142e5;
     color: #fff; }
   .button.tiny {
-    font-size: 0.6rem; }
+    font-size: 0.4rem; }
   .button.small {
-    font-size: 0.75rem; }
+    font-size: 0.6rem; }
   .button.large {
     font-size: 1.25rem; }
   .button.expanded {
@@ -3882,6 +3882,11 @@ table.hover tr:nth-of-type(even):hover {
 .faded {
   opacity: 0.6; }
 
+.container-image-fill {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; }
+
 .container-color--blue {
   background: #1054fe;
   color: white; }
@@ -3909,11 +3914,6 @@ table.hover tr:nth-of-type(even):hover {
 .container-color--tint {
   background: rgba(0, 0, 0, 0.5); }
 
-.container-image-fill {
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover; }
-
 .callout-dark {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff; }
@@ -3923,6 +3923,10 @@ table.hover tr:nth-of-type(even):hover {
 
 .callout-brand--primary {
   background-color: #1054fe;
+  color: #fff; }
+
+.callout-brand--secondary {
+  background-color: #647a87;
   color: #fff; }
 
 .callout--hover {
@@ -3938,13 +3942,6 @@ table.hover tr:nth-of-type(even):hover {
   max-width: none;
   max-width: initial; }
 
-.material-icons {
-  vertical-align: middle;
-  font-size: 140% !important; }
-
-.icon--content {
-  margin-bottom: 0.5em; }
-
 figure {
   margin: 0 0 2rem 0; }
   figure figcaption {
@@ -3956,14 +3953,40 @@ figure {
 .button {
   transition: all 100ms ease-out;
   font-weight: 700; }
+  .button:focus, .button:hover {
+    transform: translate3d(3px, 0, 0); }
   .button-hollow {
     background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff; }
+    border: 1px solid #1054fe;
+    color: #1054fe; }
     .button-hollow:hover, .button-hollow:focus {
-      border: 2px solid white;
+      border: 1px solid #769dfe;
+      background-color: transparent;
+      color: #769dfe; }
+  .button-hollow--white {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff; }
+    .button-hollow--white:hover, .button-hollow--white:focus {
+      border: 1px solid white;
       background-color: transparent;
       color: white; }
+  .button-hollow--secondary {
+    background-color: transparent;
+    border: 1px solid #647a87;
+    color: #647a87; }
+    .button-hollow--secondary:hover, .button-hollow--secondary:focus {
+      border: 1px solid #9bacb5;
+      background-color: transparent;
+      color: #9bacb5; }
+  .button-hollow--red {
+    background-color: transparent;
+    border: 1px solid #db3633;
+    color: #db3633; }
+    .button-hollow--red:hover, .button-hollow--red:focus {
+      border: 1px solid #ea8c8a;
+      background-color: transparent;
+      color: #ea8c8a; }
 
 .button-group .button:not(.button-hollow) {
   border: 0; }
@@ -3997,6 +4020,48 @@ li {
 hr.content {
   border: none;
   margin: 2rem 0; }
+
+.icon-size--small {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle; }
+
+.icon-size--medium {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5em; }
+
+.icon-size--large {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1em; }
+
+.logo-size--small {
+  max-width: 90%; }
+  @media screen and (min-width: 40em) {
+    .logo-size--small {
+      height: 24px; } }
+
+.logo-size--medium {
+  max-width: 90%; }
+  @media screen and (min-width: 40em) {
+    .logo-size--medium {
+      height: 48px; } }
+
+.logo-size--large {
+  max-width: 90%; }
+  @media screen and (min-width: 40em) {
+    .logo-size--large {
+      height: 64px; } }
+
+.svg-color--white path {
+  fill: #fff; }
+
+.svg-color--brand path {
+  fill: #1054fe; }
+
+.svg-color--gray path {
+  fill: #253a46; }
 
 .masthead {
   color: white;
@@ -4041,7 +4106,10 @@ hr.content {
 .customer {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  transition: all 100ms ease-out;
   padding: 1.5vw; }
+  .customer:focus, .customer:hover {
+    transform: translate3d(3px, 0, 0); }
 
 .logo--customer {
   height: 6vw; }
@@ -4051,6 +4119,9 @@ hr.content {
   @media screen and (min-width: 64em) {
     .logo--customer {
       height: 2.5vw; } }
+
+.icon-inline--white {
+  fill: white; }
 
 .typo-styles dt {
   display: block;
