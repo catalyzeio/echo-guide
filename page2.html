@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Echo II Styling</title>
+        <link rel="stylesheet" href="css/app.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
+        <!-- AW: We'll discuss icons separately (icon vs. inline svg). I went through a very in-depth look at this topic in the last pattern library I built. For now, Google's Material Icons & method is pretty clean. We can leverage that for icons for now. -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+        <header class="masthead container-image-fill" data-interchange="[assets/img/data-distortion-textures-@1x.png, small], [assets/img/data-distortion-textures-@2x.png, large]">
+            <div class="row">
+                <div class="small-12 columns">
+                    <h1 class="header-masthead">More Styles</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 medium-6 columns">
+                    <h2 class="masthead--subheader">Most of the stock elements on one page.</h2>
+                    <!-- <p class="lead">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. </p> -->
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section-article">
+                <div class="row">
+                    <div class="columns small-12">
+                        <h1 class="">Typography</h1>
+                        <hr class="divider">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="columns small-12 medium-12 large-4">
+                        <h3 class="subheader--spaced-out">Headers</h3>
+                        <dl class="typo-styles">
+                            <dt>h1</dt>
+                            <dd>
+                                <h1 class="typo-styles--demo mdl-typography--display-4">Light 52pt</h1>
+                                <div class="typo-styles--desc">
+                                    <span class="typo-styles__name">display-4</span>
+                                    <span class="typo-styles__weight">font weight 300</span>
+                                </div>
+                            </dd>
+                            <dt>h2</dt>
+                            <dd>
+                                <h2 class="typo-styles--demo mdl-typography--display-3">Regular 42pt</h2>
+                                <div class="typo-styles--desc">
+                                    <span class="typo-styles__name">display-3</span>
+                                    <span class="typo-styles__weight">font weight 300</span>
+                                </div>
+                            </dd>
+                            <dt>h3</dt>
+                            <dd>
+                                <h3 class="typo-styles--demo mdl-typography--display-2">Regular 30pt</h3>
+                                <div class="typo-styles--desc">
+                                    <span class="typo-styles__name">display-2</span>
+                                    <span class="typo-styles__weight">font weight 400</span>
+                                </div>
+                            </dd>
+                            <dt>h4</dt>
+                            <dd>
+                                <h4 class="typo-styles--demo mdl-typography--display-1">Regular 22pt</h4>
+                                <div class="typo-styles--desc">
+                                    <span class="typo-styles__name">display-1</span>
+                                    <span class="typo-styles__weight">font weight 700</span>
+                                </div>
+                            </dd>
+                            <dt>h5</dt>
+                            <dd>
+                                <h5 class="typo-styles--demo mdl-typography--headline">Regular 18pt</h5>
+                                <div class="typo-styles--desc">
+                                    <span class="typo-styles__name">headline</span>
+                                    <span class="typo-styles__weight">font weight 700 italic</span>
+                                </div>
+                            </dd>
+                            <dt>h6</dt>
+                            <dd>
+                                <h6 class="typo-styles--demo mdl-typography--title">Regular 20sp</h6>
+                                <div class="typo-styles--desc">
+                                    <span class="typo-styles__name">title</span>
+                                    <span class="typo-styles__weight">font weight 700</span>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="columns small-12 medium-12 large-8">
+                        <h3 class="subheader--spaced-out">Text</h3>
+                        <p>In part 2 of our healthcare innovators series, Catalyze co-founder &amp; president Mohan Balachandran continues his conversations with Grahame Grieve ("The Father of FHIR"). Grahame specializes in healthcare interoperability, balancing clinical, management and business perspectives, using his deep technical knowledge and capability. </p>
+                        <hr>
+                        <p><em>Question 1 (Mohan):</em> Can you talk about the rationale behind the creation of FHIR?</p>
+                        <blockquote>
+                        <p>“I believe that it was necessary to create a new set of standards that actually solved the problems people have. Fundamentally, that's why we did it.”</p>
+                        </blockquote>
+                        <p><em>Question 2 (Mohan):</em> What problems was FHIR designed to solve, or that HL7 couldn't solve before?</p>
+                        <blockquote>
+                        <p>“HL7's context was not around exchanging data, or if it was, it was very limited circumstances; it was hard to leverage and wasn't flexible. I wanted to set that flexibility free so people could write apps to do interesting things with data that other people held.”</p>
+                        </blockquote>
+                        <p><em>Question 3 (Mohan):</em> FHIR seems to be very patient centric and all the associated resources around it. Is that how you are thinking about it — that the patient should be at the center of all the data models and data exchanges?</p>
+                        <hr class="content">
+                        <div class="row">
+                        <div class="columns small-12 medium-12 large-6">
+                            <h4>This session's key insights</h4>
+                            <ol>
+                                <li>Discover what potential healthcare requirement would force everyone to re-engineer their interfaces</li>
+                                <li>Learn the architectural advantage of FHIR versus other data exchange standards</li>
+                                <li>Understand Grahame's thoughts around open-source and its importance</li>
+                                <li>Discover the unrealized dream for FHIR and why Grahame wants to eventually come back to it</li>
+                            </ol>
+                        </div>
+                        <div class="columns small-12 medium-12 large-6">
+                            <h4>More key insights, in no particular order</h4>
+                            <ul>
+                                <li>Discover what potential healthcare requirement would force everyone to re-engineer their interfaces</li>
+                                <li>Learn the architectural advantage of FHIR versus other data exchange standards</li>
+                                <li>Understand Grahame's thoughts around open-source and its importance</li>
+                                <li>Discover the unrealized dream for FHIR and why Grahame wants to eventually come back to it</li>
+                            </ul>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/what-input/what-input.js"></script>
+        <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
