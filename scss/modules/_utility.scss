@@ -46,6 +46,7 @@
         }
         &--gray-dark {
             background: $stratum-gray-dark; //adjust-color($stratum-gray, $lightness: 15%);
+            background: linear-gradient(to top, $stratum-gray-dark 0%, adjust-color($stratum-gray-dark, $lightness: 10%) 100%);
             color: white;
         }
         &--red {
@@ -58,6 +59,12 @@
         }
         &--tint {
             background: black(0.5);
+        }
+    }
+    &-pad{
+        &--medium {
+            padding: 1.5em; //legacy
+            padding: 3vw 2vw;
         }
     }
 }

@@ -3907,6 +3907,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .container-color--gray-dark {
   background: #1c2226;
+  background: linear-gradient(to top, #1c2226 0%, #323d43 100%);
   color: white; }
 
 .container-color--red {
@@ -3919,6 +3920,10 @@ table.hover tr:nth-of-type(even):hover {
 
 .container-color--tint {
   background: rgba(0, 0, 0, 0.5); }
+
+.container-pad--medium {
+  padding: 1.5em;
+  padding: 3vw 2vw; }
 
 .callout-dark {
   background-color: rgba(0, 0, 0, 0.4);
@@ -4026,6 +4031,10 @@ li {
 hr.content {
   border: none;
   margin: 2rem 0; }
+
+footer {
+  font-size: smaller;
+  color: rgba(255, 255, 255, 0.6) !important; }
 
 .icon-size--small {
   width: 24px;
