@@ -32,6 +32,21 @@
             </div>
         </header>
         <main>
+            <section class="section-article container-image-fill" data-interchange="[assets/img/light-bulb-retro-@1x.jpg, small], [assets/img/team-meeting-@2x.jpg, large]">
+                <div class="row">
+                    <div class="small-12 medium-6 large-4 columns callout callout-light">
+                        <h2 class="section-article--header">An image section—with responsive images.</h1>
+                        <h4 class="section-article--subheader">A different image is loaded on mobile</h2>
+                        <div class="section-article--block">
+                            <!-- <h4 class="section-article--block-header">1 per row on small</h4> -->
+                            <p>The column width changes with the viewport, allowing for some interesting art direction possibilities. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam</p>
+                            <p>As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.</p>
+                            <button class="button success large expanded">It's good <img src="/assets/svg-other/ic_check_24px.svg" alt="check" class="icon-size--small svg-color--white inject-me"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="section-article">
                 <div class="row">
                     <div class="small-12 columns text-center section-article--header-group">
@@ -160,20 +175,6 @@
                 </div>
                 </div>
             </section>
-            <section class="section-article container-image-fill" data-interchange="[assets/img/light-bulb-retro-@1x.jpg, small], [assets/img/team-meeting-@2x.jpg, large]">
-                <div class="row">
-                    <div class="small-12 medium-6 large-4 columns callout callout-light">
-                        <h2 class="section-article--header">An image section—with responsive images.</h1>
-                        <h4 class="section-article--subheader">A different image is loaded on mobile</h2>
-                        <div class="section-article--block">
-                            <!-- <h4 class="section-article--block-header">1 per row on small</h4> -->
-                            <p>The column width changes with the viewport, allowing for some interesting art direction possibilities. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam</p>
-                            <p>As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.</p>
-                            <button class="button success large expanded">It's good <img src="/assets/svg-other/ic_check_24px.svg" alt="check" class="icon-size--small svg-color--white inject-me"></button>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="section-article container-color--red">
                 <div class="row">
                     <div class="columns text-center section-article--header-group">
@@ -206,10 +207,7 @@
             </section>
 
         </main>
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/what-input/what-input.js"></script>
-        <script src="bower_components/foundation-sites/dist/foundation.js"></script>
-        <script src="bower_components/svg-injector/dist/svg-injector.min.js"></script>
+        <script src="js/dist/all.js"></script> <!-- All JS from bower packages is concatenated into all.js with gulp concat. -->
         <script src="js/app.js"></script>
 
     </body>
