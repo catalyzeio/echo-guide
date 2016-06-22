@@ -2,18 +2,18 @@
 .icon {
     &-size {
         &--small { // inline with content
-            width:  24px;
-            height: 24px;
+            width:  $thing-s;
+            height: $thing-s;
             vertical-align: middle;
         }
         &--medium {
-            width:  48px;
-            height: 48px;
+            width:  $thing-m;
+            height: $thing-m;
             margin-bottom: 0.5em;
         }
         &--large {
-            width:  64px;
-            height: 64px;
+            width:  $thing-l;
+            height: $thing-l;
             margin-bottom: 1em;
         }
     }
@@ -24,19 +24,19 @@
         &--small { // inline with content
             max-width: 90%;
             @include breakpoint(medium up) {
-                height: 24px;
+                height: $thing-s;
             }
         }
         &--medium {
             max-width: 90%;
             @include breakpoint(medium up) {
-                height: 48px;
+                height: $thing-m;
             }
         }
         &--large {
             max-width: 90%;
             @include breakpoint(medium up) {
-                height: 64px;
+                height: $thing-l;
             }
         }
     }

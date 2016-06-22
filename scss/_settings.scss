@@ -116,6 +116,12 @@ $print-transparent-backgrounds: true;
 
 $pad: 2rem;
 
+// S, M, L, XL sizes for round/square things
+$thing-s:  24px;
+$thing-m:  48px;
+$thing-l:  64px;
+$thing-xl: 72px;
+
 @include add-foundation-colors;
 
 // 2. Breakpoints

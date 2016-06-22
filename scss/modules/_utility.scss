@@ -20,6 +20,12 @@
 .faded {
     @include opacity(0.6);
 }
+.group {// add .group to a container to give it extra bottom menu-margin
+    margin-bottom: 1rem;
+    @include breakpoint(medium up) {
+        margin-bottom: 2rem;
+    }
+}
 .container {
     &-image-fill {
         @include background-fill (center top);
@@ -77,7 +83,7 @@
         transition: box-shadow 100ms ease-out;
         @include shadow(0, 0, 0.2);
         &:hover {
-            @include shadow(0, 20px, 0.6);
+            @include shadow(0, 20px, 0.4);
         }
     }
 }

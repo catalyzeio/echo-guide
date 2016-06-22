@@ -1,0 +1,44 @@
+.media-object {
+
+}
+.avatar {
+    &--small { // inline with content
+        // max-width: 90%;
+        @include breakpoint(medium up) {
+            width: $thing-s;
+        }
+    }
+    &--medium {
+        // max-width: 90%;
+        @include breakpoint(medium up) {
+            width: $thing-m;
+        }
+    }
+    &--large {
+        padding: $pad;
+        @include breakpoint(medium up) {
+            width: $thing-xl;
+            padding: 0;
+        }
+    }
+}
+.person {
+    &-name {
+        font: {
+            size: 1em;
+            weight: $font-weight-bold;
+        }
+    }
+    &-title {
+
+    }
+    &-role {
+
+    }
+    &-quote {
+        font: {
+            style: italic;
+            // weight: $font-weight-bold;
+        }
+    }
+}
