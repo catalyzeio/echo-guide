@@ -1,136 +1,175 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Echo II Style Guide: Components</title>
-        <link rel="stylesheet" href="css/app.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
-        <!-- AW: We'll discuss icons separately (icon vs. inline svg). I went through a very in-depth look at this topic in the last pattern library I built. For now, Google's Material Icons & method is pretty clean. We can leverage that for icons for now. -->
-        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    </head>
-    <body>
 
-        <header class="masthead container-image-fill" data-interchange="[assets/img/data-distortion-textures-@1x.png, small], [assets/img/data-distortion-textures-@2x.png, large]">
-            <div class="row">
-                <div class="small-12 columns">
-                    <h1 class="header-masthead">Components & Objects</h1>
-                </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo II Style Guide: Components</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- AW: We'll discuss icons separately (icon vs. inline svg). I went through a very in-depth look at this topic in the last pattern library I built. For now, Google's Material Icons & method is pretty clean. We can leverage that for icons for now. -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+</head>
+
+<body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+            <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+                <!-- Close button -->
+                <button class="close-button" aria-label="Close menu" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <!-- Menu -->
+                <ul class="vertical menu">
+                    <li><a href="#">Foundation</a></li>
+                    <li><a href="#">Dot</a></li>
+                    <li><a href="#">ZURB</a></li>
+                    <li><a href="#">Com</a></li>
+                    <li><a href="#">Slash</a></li>
+                    <li><a href="#">Sites</a></li>
+                </ul>
+
             </div>
-            <div class="row">
-                <div class="small-12 medium-6 columns">
-                    <h2 class="masthead--subheader">Complex structures</h2>
-                    <!-- <p class="lead">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. </p> -->
-                </div>
+
+            <div class="off-canvas-content" data-off-canvas-content>
+                <!-- Page content -->
+
+                <header class="masthead container-image-fill" data-interchange="[assets/img/data-distortion-textures-@1x.png, small], [assets/img/data-distortion-textures-@2x.png, large]">
+                    <div class="title-bar">
+                      <div class="title-bar-left">
+                        <!-- <button class="menu-icon" type="button" data-open="offCanvasLeft"></button> -->
+                        <span class="title-bar-title">Catalyze</span>
+                      </div>
+                      <div class="title-bar-right">
+                        <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <h1 class="header-masthead">Components & Objects</h1>
+                            <h2 class="masthead--subheader">Complex structures</h2>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <section class="section-article container-color--gray-light">
+                        <div class="row">
+                            <div class="columns small-12 section-article--header-group">
+                                <h1 class="section-article--header">Person Cards</h1>
+                                <hr class="divider">
+                                <h3 class="">Uses the flexbox n-up grid, and are responsive</h3>
+                            </div>
+                        </div>
+                        <div class="row small-up-2 large-up-4 group">
+                            <div class="column media-object card-person stack-for-small">
+                                <div class="media-object-section">
+                                    <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-madeleine.jpg">
+                                </div>
+                                <div class="media-object-section main-section align-self-middle">
+                                    <h4 class="person-name">Lobelia Proudfoot</h4>
+                                    <p class="person-title">Dreams feel real while we're in them.</p>
+                                </div>
+                            </div>
+                            <div class="column media-object card-person stack-for-small">
+                                <div class="media-object-section">
+                                    <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-mark.jpg">
+                                </div>
+                                <div class="media-object-section main-section align-self-middle">
+                                    <h4 class="person-name">Bran Buckwind III</h4>
+                                    <p class="person-title">I Can Stack.</p>
+                                </div>
+                            </div>
+                            <div class="column media-object card-person stack-for-small">
+                                <div class="media-object-section">
+                                    <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-kgrieger.jpg">
+                                </div>
+                                <div class="media-object-section main-section align-self-middle">
+                                    <h4 class="person-name">Bruce Almighty</h4>
+                                    <p class="person-title">Dreams feel real while we're in them.</p>
+                                </div>
+                            </div>
+                            <div class="column media-object card-person stack-for-small">
+                                <div class="media-object-section">
+                                    <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-tyler.jpg">
+                                </div>
+                                <div class="media-object-section main-section align-self-middle">
+                                    <h4 class="person-name">Bandobras "Bullroarer" Took</h4>
+                                    <p class="person-title">I Can Stack.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="columns small-12">
+                                <h3 class="section-article--header-group">Wrap cards in a callout class for variations</h3>
+                            </div>
+                        </div>
+
+                        <div class="row small-up-1 medium-up-2">
+                            <div class="column">
+                                <div class="callout full-height">
+                                    <p class="person-quote">I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy
+                                        you.</p>
+
+                                    <div class="column media-object card-person stack-for-small">
+                                        <div class="media-object-section">
+                                            <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-madeleine.jpg">
+                                        </div>
+                                        <div class="media-object-section main-section align-self-middle">
+                                            <h4 class="person-name">Lobelia Proudfoot</h4>
+                                            <p class="person-title">Dreams feel real while we're in them.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="callout callout--hover full-height">
+                                    <p class="person-quote">Shrink the browser width to see me stack. I do tricks for dog treats, but I'm not a dog.</p>
+
+                                    <div class="media-object card-person stack-for-small">
+                                        <div class="media-object-section">
+                                            <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-mark.jpg">
+                                        </div>
+                                        <div class="media-object-section main-section align-self-middle">
+                                            <h4 class="person-name">Bran Buckwind III</h4>
+                                            <p class="person-title">I Can Stack.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer class="container-pad--medium container-color--gray">
+                    <div class="row full-width small-up-1 medium-up-2 large-up-3">
+                        <div class="column">
+                            <h4>Info</h4>
+                            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+                        </div>
+                        <div class="column">
+                            <h4>Info</h4>
+                            <ul>
+                                <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+                                <li>sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa</li>
+                                <li>quae ab illo inventore veritatis</li>
+                                <li>et quasi architecto beatae vitae.</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>Info</h4>
+                            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+                        </div>
+                    </div>
+                </footer>
+                <script src="js/dist/all.js"></script>
+                <!-- All JS from bower packages is concatenated into all.js with gulp concat. -->
+                <script src="js/app.js"></script>
             </div>
-        </header>
-        <main>
-            <section class="section-article container-color--gray-light">
-                <div class="row"><div class="columns small-12 text-center section-article--header-group">
-                    <h1 class="section-article--header">Person Cards</h1>
-                    <h2 class="">Uses the flexbox n-up grid, and are responsive</h2>
-                </div></div>
-                <div class="row small-up-2 large-up-4 group">
-                    <div class="column media-object card-person stack-for-small">
-                        <div class="media-object-section">
-                            <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-madeleine.jpg">
-                        </div>
-                        <div class="media-object-section main-section align-self-middle">
-                            <h4 class="person-name">Lobelia Proudfoot</h4>
-                            <p class="person-title">Dreams feel real while we're in them.</p>
-                        </div>
-                    </div>
-                    <div class="column media-object card-person stack-for-small">
-                        <div class="media-object-section">
-                            <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-mark.jpg">
-                        </div>
-                        <div class="media-object-section main-section align-self-middle">
-                            <h4 class="person-name">Bran Buckwind III</h4>
-                            <p class="person-title">I Can Stack.</p>
-                        </div>
-                    </div>
-                    <div class="column media-object card-person stack-for-small">
-                        <div class="media-object-section">
-                            <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-kgrieger.jpg">
-                        </div>
-                        <div class="media-object-section main-section align-self-middle">
-                            <h4 class="person-name">Bruce Almighty</h4>
-                            <p class="person-title">Dreams feel real while we're in them.</p>
-                        </div>
-                    </div>
-                    <div class="column media-object card-person stack-for-small">
-                        <div class="media-object-section">
-                            <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-tyler.jpg">
-                        </div>
-                        <div class="media-object-section main-section align-self-middle">
-                            <h4 class="person-name">Bandobras "Bullroarer" Took</h4>
-                            <p class="person-title">I Can Stack.</p>
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </div>
+</body>
 
-                <div class="row"><div class="columns small-12">
-                    <h2 class="text-center section-article--header-group">Wrap cards in a callout class for variations</h2>
-                </div></div>
-
-                <div class="row small-up-1 medium-up-2">
-                    <div class="column">
-                    <div class="callout">
-                        <p class="person-quote">I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-
-                        <div class="column media-object card-person stack-for-small">
-                            <div class="media-object-section">
-                                <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-madeleine.jpg">
-                            </div>
-                            <div class="media-object-section main-section align-self-middle">
-                                <h4 class="person-name">Lobelia Proudfoot</h4>
-                                <p class="person-title">Dreams feel real while we're in them.</p>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="column">
-                    <div class="callout callout--hover">
-                        <p class="person-quote">Shrink the browser width to see me stack. I do tricks for dog treats, but I'm not a dog.</p>
-
-                        <div class="media-object card-person stack-for-small">
-                            <div class="media-object-section">
-                                <img class="avatar avatar--large circle" src="assets/img/people-profiles/prof-mark.jpg">
-                            </div>
-                            <div class="media-object-section main-section align-self-middle">
-                                <h4 class="person-name">Bran Buckwind III</h4>
-                                <p class="person-title">I Can Stack.</p>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="container-pad--medium container-color--gray">
-            <div class="row full-width small-up-1 medium-up-2 large-up-3">
-                <div class="column">
-                    <h4>Info</h4>
-                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
-                </div>
-                <div class="column">
-                    <h4>Info</h4>
-                    <ul>
-                        <li>Sed ut perspiciatis, unde omnis iste natus error</li>
-                        <li>sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa</li>
-                        <li>quae ab illo inventore veritatis</li>
-                        <li>et quasi architecto beatae vitae.</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h4>Info</h4>
-                    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
-                </div>
-            </div>
-        </footer>
-        <script src="js/dist/all.js"></script> <!-- All JS from bower packages is concatenated into all.js with gulp concat. -->
-        <script src="js/app.js"></script>
-
-    </body>
 </html>
