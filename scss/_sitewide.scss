@@ -85,21 +85,14 @@
         }
     }
 }
-.icon {
-    &-inline {
-        &--white{
-            fill: white;
-        }
-    }
-}
+
 hr {
     &.divider{
-
-    }
-    &.callout-divider{
-        margin: 1rem $pad * 1.5;
-        &--white {
+        &-white {
             border-color: white(.5);
+        }
+        &-short{
+            margin: 1rem $pad * 1.5;
         }
     }
 }

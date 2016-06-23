@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="969px" height="675px" viewBox="0 0 969 675" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>gfx-integration-timeline-desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="81" width="420" height="140" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100996377 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.220674819 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="544" y="81" width="420" height="140" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100996377 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.220674819 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-5" x="4" y="251" width="420" height="190" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100996377 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.220674819 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-7" x="544" y="251" width="420" height="190" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100996377 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.220674819 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-9" x="4" y="471" width="420" height="185" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100996377 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.220674819 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-11" x="544" y="471" width="420" height="185" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.100996377 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.220674819 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gfx-integration-timeline-desktop">
+            <rect id="Rectangle-40" fill="#1055FF" x="213" y="46" width="2" height="520"></rect>
+            <rect id="Rectangle-40" fill="#1055FF" x="753" y="48" width="2" height="520"></rect>
+            <rect id="Rectangle-39" fill="#1055FF" x="79" y="21" width="270" height="30" rx="15"></rect>
+            <text id="WHAT-WE-KNOW-ABOUT-I" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="14" font-weight="bold" fill="#FFFFFF">
+                <tspan x="97.233" y="41">WHAT WE KNOW ABOUT INTEGRATION</tspan>
+            </text>
+            <rect id="Rectangle-39" fill="#1055FF" x="664" y="21" width="180" height="30" rx="15"></rect>
+            <text id="WHAT-IT-MEANS-TO-YOU" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="14" font-weight="bold" fill="#FFFFFF">
+                <tspan x="680.941" y="41">WHAT IT MEANS TO YOU</tspan>
+            </text>
+            <g id="Rectangle-160">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <text id="Technical-debt-of-he" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" line-spacing="23" fill="#141C22">
+                <tspan x="35" y="121">Technical debt of healthcare integrations </tspan>
+                <tspan x="35" y="144">compound over time.</tspan>
+                <tspan x="185.72" y="144" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal"></tspan>
+                <tspan x="35" y="167" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">Integrations are point-to-point which means each new </tspan>
+                <tspan x="35" y="190" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">integration is a compounding set of things to track.</tspan>
+            </text>
+            <path d="M471,165.746014 C471,166.850234 471.770937,167.284851 472.723701,166.715706 L496.501317,152.511848 C497.453291,151.943174 497.454081,151.021644 496.501317,150.452499 L472.723701,136.248641 C471.771727,135.679968 471,136.121213 471,137.221025 L471,144.995692 L471,158.03916 L471,165.746014 Z" id="]" fill="#1055FF"></path>
+            <g id="Rectangle-160">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <text id="The-technical-debt-i" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" line-spacing="23" fill="#141C22">
+                <tspan x="575" y="121">The technical debt is your responsibility.</tspan>
+                <tspan x="860.792" y="121" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal"></tspan>
+                <tspan x="575" y="144" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">Eliminating it frees you to focus on more interesting and </tspan>
+                <tspan x="575" y="167" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">valuable projects, and reduces the amount of things you </tspan>
+                <tspan x="575" y="190" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">must manage that can go wrong.</tspan>
+            </text>
+            <g id="Rectangle-160">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <text id="Healthcare-integrati" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" line-spacing="23" fill="#141C22">
+                <tspan x="35" y="291">Healthcare integrations can fail in the middle of </tspan>
+                <tspan x="35" y="314">the night, with the onus first put on vendors, not </tspan>
+                <tspan x="35" y="337">health systems.</tspan>
+                <tspan x="146.328" y="337" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal"></tspan>
+                <tspan x="35" y="360" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">It's typically up to the vendor to ensure an integration doesn't </tspan>
+                <tspan x="35" y="383" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">fail. The problem is integrations will often fail at inopportune </tspan>
+                <tspan x="35" y="406" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">times due to dependencies outside of your control.</tspan>
+            </text>
+            <path d="M471,360.746014 C471,361.850234 471.770937,362.284851 472.723701,361.715706 L496.501317,347.511848 C497.453291,346.943174 497.454081,346.021644 496.501317,345.452499 L472.723701,331.248641 C471.771727,330.679968 471,331.121213 471,332.221025 L471,339.995692 L471,353.03916 L471,360.746014 Z" id="]" fill="#1055FF"></path>
+            <g id="Rectangle-160">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+            <text id="Maintaining-secure-c" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" line-spacing="23" fill="#141C22">
+                <tspan x="575" y="291">Maintaining secure connectivity, like keep-alive </tspan>
+                <tspan x="575" y="314">VPNs, are your responsibility.</tspan>
+                <tspan x="782.856" y="314" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal"></tspan>
+                <tspan x="575" y="337" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">As digital health applications become intertwined with </tspan>
+                <tspan x="575" y="360" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">mission critical patient care, ensuring uptime with health </tspan>
+                <tspan x="575" y="383" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">system integrations grows in importance for technology </tspan>
+                <tspan x="575" y="406" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">teams.</tspan>
+            </text>
+            <g id="Rectangle-160">
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+            </g>
+            <text id="Integrations-require" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" line-spacing="23" fill="#141C22">
+                <tspan x="35" y="511">Integrations require expertise in HL7, FHIR, VPN </tspan>
+                <tspan x="35" y="534">connectivity, and more no-fun technologies.</tspan>
+                <tspan x="346.328" y="534" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal"></tspan>
+                <tspan x="35" y="557" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">The story of healthcare technology is that it's old and hard to </tspan>
+                <tspan x="35" y="580" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">develop expertise. It takes an enormous amount of time to </tspan>
+                <tspan x="35" y="603" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">master, and there is little value in becoming experts as it </tspan>
+                <tspan x="35" y="626" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">eventually gets better.</tspan>
+            </text>
+            <path d="M471,577.746014 C471,578.850234 471.770937,579.284851 472.723701,578.715706 L496.501317,564.511848 C497.453291,563.943174 497.454081,563.021644 496.501317,562.452499 L472.723701,548.248641 C471.771727,547.679968 471,548.121213 471,549.221025 L471,556.995692 L471,570.03916 L471,577.746014 Z" id="]" fill="#1055FF"></path>
+            <g id="Rectangle-160">
+                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+            </g>
+            <text id="More-new-things-to-m" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="16" font-weight="bold" line-spacing="23" fill="#141C22">
+                <tspan x="575" y="511">More new things to master. Most aren't helpful to </tspan>
+                <tspan x="575" y="534">your career.</tspan>
+                <tspan x="659.272" y="534" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal"></tspan>
+                <tspan x="575" y="557" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">Becoming an expert takes more than understanding HL7 </tspan>
+                <tspan x="575" y="580" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">protocol syntax or brushing up on FHIR's API. You must also </tspan>
+                <tspan x="575" y="603" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">know the best clinical workflow mappings and the quirkiness </tspan>
+                <tspan x="575" y="626" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="14" font-weight="normal">of secure VPN maintenance.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -4185,6 +4185,9 @@ footer {
   height: 64px;
   margin-bottom: 1em; }
 
+.icon-inline--white {
+  fill: white; }
+
 .logo-size--small {
   max-width: 90%; }
   @media screen and (min-width: 40em) {
@@ -4369,13 +4372,11 @@ footer {
   .logo--nav:hover path {
     fill: #c7f8ff; }
 
-.icon-inline--white {
-  fill: white; }
+hr.divider-white {
+  border-color: rgba(255, 255, 255, 0.5); }
 
-hr.callout-divider {
+hr.divider-short {
   margin: 1rem 3rem; }
-  hr.callout-divider--white {
-    border-color: rgba(255, 255, 255, 0.5); }
 
 .typo-styles dt {
   display: block;

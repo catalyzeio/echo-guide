@@ -17,7 +17,14 @@
             margin-bottom: 1em;
         }
     }
+    &-inline {
+        &--white{
+            fill: white;
+        }
+    }
 }
+
+
 // logos are non-square and need different attributes. If there's a more elegant way to do this, I'm all ears. - AW
 .logo {
     &-size {
