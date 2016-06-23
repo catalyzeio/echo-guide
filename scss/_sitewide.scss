@@ -3,8 +3,14 @@
     background: {
         color: $stratum-gray-dark;
     };
-    // @include background-fill (center center);
-    @include container-pad;
+    padding-bottom: 2em; //legacy
+    padding-bottom: 5vw;
+    padding-left:  3vw;
+    padding-right: 3vw;
+    @include breakpoint(xlarge up){
+        padding-left:  0;
+        padding-right: 0;
+    }
     &--subheader {
         font: {
             size: 1.5em;
@@ -16,7 +22,6 @@
 .section-article {
     @include container-pad;
     &--header {
-        // text-align: center;
         &-group {
             margin-bottom: 1.5rem;
         }
@@ -65,6 +70,14 @@
         }
         @include breakpoint(large up) {
             height: 2.5vw;
+        }
+    }
+    &--nav {
+        width: 100px;
+        height: 22px; // how can we do this responsively?
+        min-width: 50px;
+        &:hover path{
+            fill: hsl(188, 100%, 89%);
         }
     }
 }

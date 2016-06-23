@@ -7,12 +7,42 @@
         <title>Echo II Style Guide: Typography</title>
         <link rel="stylesheet" href="css/app.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
-        <!-- AW: We'll discuss icons separately (icon vs. inline svg). I went through a very in-depth look at this topic in the last pattern library I built. For now, Google's Material Icons & method is pretty clean. We can leverage that for icons for now. -->
-        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     </head>
     <body>
 
         <header class="masthead container-image-fill" data-interchange="[assets/img/data-distortion-textures-@1x.png, small], [assets/img/data-distortion-textures-@2x.png, large]">
+            <nav>
+            <div class="title-bar row" data-responsive-toggle="site-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle></button>
+                <div class="title-bar-title">Menu</div>
+            </div>
+            <div class="top-bar row" id="site-menu">
+                <div class="top-bar-left">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li class="menu-text">
+                            <a href="index.html" title="main" class="menu-logo">
+                            <img src="assets/svg/logo-catalyze.svg" alt="site logo" class="logo--nav svg-color--white inject-me">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="type.html" class="nav-link--light">Typography</a>
+                        </li>
+                        <li><a href="components.html" class="nav-link--light">Components</a></li>
+                    </ul>
+                </div>
+                <div class="top-bar-right">
+                    <div class="menu">
+                        <div class="input-group align-right">
+                            <input class="input-group-field" type="search" placeholder="Search">
+                            <div class="input-group-button">
+                                <input type="submit" class="button" value="Search">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </nav>
+            
             <div class="row">
                 <div class="small-12 columns">
                     <h1 class="header-masthead">Typography and Long-Form Content</h1>
@@ -21,7 +51,6 @@
             <div class="row">
                 <div class="small-12 medium-6 columns">
                     <h2 class="masthead--subheader">Most of the stock elements on one page.</h2>
-                    <!-- <p class="lead">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. </p> -->
                 </div>
             </div>
         </header>
