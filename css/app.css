@@ -4265,9 +4265,6 @@ footer {
 .card {
   border-radius: 4px;
   margin-bottom: 2rem; }
-  @media screen and (min-width: 40em) {
-    .card {
-      height: 100%; } }
   .card-basic {
     background-color: #f4f5f6;
     text-align: center;
@@ -4283,6 +4280,9 @@ footer {
         align-items: stretch;
     -ms-flex-direction: column;
         flex-direction: column; }
+    @media screen and (min-width: 40em) {
+      .card-info {
+        height: 90%; } }
   .card-icon {
     margin: 0; }
   .card-header {

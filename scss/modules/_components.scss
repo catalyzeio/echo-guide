@@ -79,9 +79,6 @@
     $corner: $global-radius;
     border-radius: $corner;
     margin-bottom: 2rem;
-    @include breakpoint(medium up){
-        height: 100%;
-    }
     &-basic {
         background-color: $gray-12;
         text-align: center;
@@ -94,9 +91,9 @@
         @include flex;
         @include flex-align($x: center, $y: stretch);
         flex-direction: column;
-    // justify-content: flex-start; /* align items in Main Axis */
-    // align-items: stretch; /* align items in Cross Axis */
-    // align-content: stretch; /* Extra space in Cross Axis */
+        @include breakpoint(medium up){
+            height: 90%; // there's a problem here, where margin-bottom doesn't add space after the card, but inside it. Investigating
+        }
     }
     &-icon {
         margin: 0;
