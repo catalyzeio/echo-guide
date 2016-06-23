@@ -3978,6 +3978,10 @@ table.hover tr:nth-of-type(even):hover {
 .long-delay {
   animation-delay: 700ms !important; }
 
+.flex-grow {
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto; }
+
 .spaced-out, .subheader--spaced-out {
   text-transform: uppercase;
   letter-spacing: 0.2em; }
@@ -4248,6 +4252,10 @@ footer {
   background-color: #647a87;
   color: #fff; }
 
+.callout-brand--red {
+  background-color: #db3633;
+  color: #fff; }
+
 .callout--hover {
   transition: box-shadow 100ms ease-out;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.2); }
@@ -4255,12 +4263,26 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
 
 .card {
-  background-color: #f4f5f6;
-  text-align: center;
-  border-radius: 5px;
-  border: 1px solid #cfd5d8;
-  overflow: hidden;
+  border-radius: 4px;
   margin-bottom: 2rem; }
+  @media screen and (min-width: 40em) {
+    .card {
+      height: 100%; } }
+  .card-basic {
+    background-color: #f4f5f6;
+    text-align: center;
+    border: 1px solid #cfd5d8;
+    overflow: hidden; }
+  .card-info {
+    padding: 1.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: stretch;
+        align-items: stretch;
+    -ms-flex-direction: column;
+        flex-direction: column; }
   .card-icon {
     margin: 0; }
   .card-header {
@@ -4349,6 +4371,11 @@ footer {
 
 .icon-inline--white {
   fill: white; }
+
+hr.callout-divider {
+  margin: 1rem 3rem; }
+  hr.callout-divider--white {
+    border-color: rgba(255, 255, 255, 0.5); }
 
 .typo-styles dt {
   display: block;

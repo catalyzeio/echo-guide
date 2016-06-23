@@ -92,3 +92,14 @@
         }
     }
 }
+hr {
+    &.divider{
+
+    }
+    &.callout-divider{
+        margin: 1rem $pad * 1.5;
+        &--white {
+            border-color: white(.5);
+        }
+    }
+}
