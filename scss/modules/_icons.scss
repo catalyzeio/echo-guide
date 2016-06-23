@@ -43,13 +43,13 @@
 }
 .svg {
     &-color { // styling inlined SVG here
-        &--white path {
+        &--white path, &--white ellipse {
             fill: $white;
         }
-        &--brand path {
+        &--brand path, &--brand ellipse {
             fill: $primary-color;
         }
-        &--gray path {
+        &--gray path, &--gray ellipse { // there are objects that are not paths that have fill =/
             fill: $stratum-gray;
         }
     }

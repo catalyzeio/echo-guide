@@ -42,3 +42,63 @@
         }
     }
 }
+.callout {
+    &-gray {
+        background-color: $gray-12;
+        // color: $white;
+    }
+    &-dark {
+        background-color: rgba($black, 0.4);
+        color: $white;
+    }
+    &-light {
+        background-color: white(0.8);
+        //color: $white;
+    }
+    &-brand--primary {
+        background-color: $primary-color;
+        color: $white;
+    }
+    &-brand--secondary {
+        background-color: $stratum-gray-light;
+        color: $white;
+    }
+    &--hover { // for callouts that behave like buttons!
+        transition: box-shadow 100ms ease-out;
+        @include shadow(0, 0, 0.2);
+        &:hover {
+            @include shadow(0, 20px, 0.4);
+        }
+    }
+}
+.card {
+    $corner: 5px;
+    background-color: $gray-12;
+    text-align: center;
+    border-radius: $corner;
+    border: 1px solid $gray-10;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    // height: 100%;
+    &-icon {
+        margin: 0;
+    }
+    &-header {
+        padding: 1rem;
+    }
+    &-body {
+        padding: 1rem;
+        border-top: 1px solid $gray-10;
+        border-bottom: 1px solid $gray-10;
+        background-color: $gray-11;
+        &--collapse {
+            padding: 0;
+        }
+    }
+    &-footer {
+        padding: 1rem;
+        .button {
+            margin: 0;
+        }
+    }
+}

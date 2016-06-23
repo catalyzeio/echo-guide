@@ -4043,27 +4043,6 @@ table.hover tr:nth-of-type(even):hover {
 .full-height {
   height: 100%; }
 
-.callout-dark {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff; }
-
-.callout-light {
-  background-color: rgba(255, 255, 255, 0.8); }
-
-.callout-brand--primary {
-  background-color: #1054fe;
-  color: #fff; }
-
-.callout-brand--secondary {
-  background-color: #647a87;
-  color: #fff; }
-
-.callout--hover {
-  transition: box-shadow 100ms ease-out;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2); }
-  .callout--hover:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
-
 .full-width {
   width: 100%;
   margin-left: auto;
@@ -4220,13 +4199,13 @@ footer {
     .logo-size--large {
       height: 64px; } }
 
-.svg-color--white path {
+.svg-color--white path, .svg-color--white ellipse {
   fill: #fff; }
 
-.svg-color--brand path {
+.svg-color--brand path, .svg-color--brand ellipse {
   fill: #1054fe; }
 
-.svg-color--gray path {
+.svg-color--gray path, .svg-color--gray ellipse {
   fill: #253a46; }
 
 @media screen and (min-width: 40em) {
@@ -4250,6 +4229,53 @@ footer {
 
 .person-quote {
   font-style: italic; }
+
+.callout-gray {
+  background-color: #f4f5f6; }
+
+.callout-dark {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff; }
+
+.callout-light {
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.callout-brand--primary {
+  background-color: #1054fe;
+  color: #fff; }
+
+.callout-brand--secondary {
+  background-color: #647a87;
+  color: #fff; }
+
+.callout--hover {
+  transition: box-shadow 100ms ease-out;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2); }
+  .callout--hover:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+
+.card {
+  background-color: #f4f5f6;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #cfd5d8;
+  overflow: hidden;
+  margin-bottom: 2rem; }
+  .card-icon {
+    margin: 0; }
+  .card-header {
+    padding: 1rem; }
+  .card-body {
+    padding: 1rem;
+    border-top: 1px solid #cfd5d8;
+    border-bottom: 1px solid #cfd5d8;
+    background-color: #e6e9ea; }
+    .card-body--collapse {
+      padding: 0; }
+  .card-footer {
+    padding: 1rem; }
+    .card-footer .button {
+      margin: 0; }
 
 .masthead {
   color: white;
