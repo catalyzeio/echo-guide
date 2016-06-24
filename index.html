@@ -11,19 +11,18 @@
         <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     </head>
     <body>
-
+        <nav class="title-bar row" data-responsive-toggle="site-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="title-bar-title">Menu</div>
+        </nav>
         <header class="masthead container-image-fill" data-interchange="[assets/img/data-distortion-textures-@1x.png, small], [assets/img/data-distortion-textures-@2x.png, large]">
             <nav>
-            <div class="title-bar row" data-responsive-toggle="site-menu" data-hide-for="medium">
-                <button class="menu-icon" type="button" data-toggle></button>
-                <div class="title-bar-title">Menu</div>
-            </div>
             <div class="top-bar row" id="site-menu">
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li class="menu-text">
                             <a href="index.html" title="main" class="menu-logo">
-                            <img src="assets/svg/logo-catalyze.svg" alt="site logo" class="logo--nav svg-color--white inject-me">
+                            <img src="assets/svg/logo-catalyze-white.svg" alt="site logo" class="logo--nav">
                             </a>
                         </li>
                         <li>
@@ -33,13 +32,17 @@
                     </ul>
                 </div>
                 <div class="top-bar-right">
-                    <div class="menu">
+                    <div class="menu hide-for-small-only">
                         <div class="input-group align-right">
                             <input class="input-group-field" type="search" placeholder="Search">
                             <div class="input-group-button">
                                 <input type="submit" class="button" value="Search">
                             </div>
+                            <button class="button button-hollow--white">Call today</button>
                         </div>
+                    </div>
+                    <div class="menu show-for-small-only">
+                        <button class="button button-hollow--white expanded">Call today</button>
                     </div>
                 </div>
             </div>
@@ -119,19 +122,19 @@
                         <img class="icon-size--medium svg-color--brand inject-me" src="assets/svg/icon-large-data.svg"/>
                         <h4 class="section-article--feature-header">We become your healthcare-focused DevOps team</h4>
                         <p>Leverage our experience and expertise in healthcare technology to add value to your organization. You can put all your energy towards your innovative ideas—the thing that actually matters.</p>
-                        <button class="button button-hollow--secondary small">Learn more <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--gray inject-me"></button>
+                        <button class="button button-hollow--secondary">Learn more <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--gray inject-me"></button>
                     </div>
                     <div class="column section-article--block">
                         <img class="icon-size--medium svg-color--brand inject-me" src="assets/svg/icon-large-hands-circle.svg"/>
                         <h4 class="section-article--feature-header">Concentrate on the relationships that matter</h4>
                         <p>Stratum immediately establishes credibility between the players who matter in healthcare. Health systems and vendors alike can work more freely together to innovate.</p>
-                        <button class="button button-hollow--secondary small">Learn more <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--gray inject-me"></button>
+                        <button class="button button-hollow--secondary">Learn more <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--gray inject-me"></button>
                     </div>
                     <div class="column section-article--block">
                         <img class="icon-size--medium svg-color--brand inject-me" src="assets/svg/icon-large-lightbulb-circle.svg"/>
                         <h4 class="section-article--feature-header">Spend energy and resources on innovation, not compliance</h4>
                         <p>Achieving Triple Aim goals is the mandate for healthcare. We're all in this together, but it's only going to happen if you can concentrate on the innovations that get us there.</p>
-                        <button class="button button-hollow--secondary small">Learn more <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--gray inject-me"></button>
+                        <button class="button button-hollow--secondary">Learn more <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--gray inject-me"></button>
                     </div>
                 </div>
             </section>
@@ -147,7 +150,7 @@
                         <div class="callout callout--hover">
                             <h3 class="">This panel is hoverfancy</h3>
                             <p>This is a <a href="http://google.github.io/material-design-icons/" title="Material Design Lite System">material-design-style</a> effect, to make it appear to move toward the viewer a bit. Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
-                            <button class="button info small">Call-to-Action <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--white inject-me"></button>
+                            <button class="button info">Call-to-Action <img src="assets/svg-other/ic_chevron_right_24px.svg" alt="check" class="icon-size--small svg-color--white inject-me"></button>
                         </div>
                     </div>
                     <div class="small-12 medium-6 columns">

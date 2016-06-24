@@ -41,3 +41,14 @@ footer {
     font-size: smaller;
     color: white(0.6) !important; // assumes a dark footer
 }
+.quote{
+    &-full {
+        font: {
+            weight: $font-weight-light;
+            size: 24px;
+        }
+        @include breakpoint (medium up){
+            font-size: 3vw;
+        }
+    }
+}
